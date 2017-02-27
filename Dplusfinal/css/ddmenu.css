@@ -1,0 +1,270 @@
+/* main menu
+----------------------------*/
+@charset "utf-8";
+* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+}
+ 
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+/* Styles */
+}
+ 
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+/* Styles */
+}
+ 
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+}
+@font-face {
+    font-family: futura;
+    src: url(fonts/futura-pt.otf);
+}
+body {
+    margin:0;
+    padding:0;
+    width:100%;
+}
+#ddmenu ul li.active a {
+    text-decoration:none;
+    color:#fff;
+}
+#ddmenu
+{
+    display:block;
+    font:normal 12px/1.5em "futura";
+    text-align:center; /*Specify the alignment of the whole UL if UL is not width:100%;*/
+    letter-spacing:normal;
+    float:left;
+}
+#ddmenu ul li img {
+    /*padding-top: 5px;*/
+}
+
+#ddmenu ul
+{ 
+    margin:0 auto;
+    padding-top: 25px;
+    text-align:center; /* Alignment of each top-level menu items within the UL */
+    /*width:960px;*/
+    font-size:0;
+    /*background:#1C456E;*/
+    display:inline-block;
+    list-style:none;
+    position:relative;
+    z-index:999999990; 
+    max-width:auto;
+/*border:1px solid rgba(255,255,255,0.2);*/
+border-radius:4px;
+}
+
+#ddmenu li
+{
+    margin:0;
+    padding:0 13px;
+    margin-left: 6px;
+    font-size:12px;
+    font-family: 'futura';
+    display:inline-block;
+    *display:inline;
+    zoom:1; /*for IE6-7*/
+    position:relative;
+    color:;
+    line-height:46px; /*This determines the height of the menu*/
+    vertical-align:middle;
+    transition:background-color 0.2s;
+    outline:none;
+	-moz-user-select:none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+#ddmenu .full-width {
+    position: static;
+}
+
+#ddmenu .over
+{
+    color:#FFF;
+/*background-color:#205081;*/
+}
+
+#ddmenu .over.no-sub {
+    
+}
+
+#ddmenu .top-heading
+{
+    font-weight:bold;
+    margin:0 16px;
+    color:inherit;
+    text-decoration:none;
+    display:inline-block; 
+    outline:0;
+    cursor:pointer;
+}
+
+/* links of top-heading */
+#ddmenu a, #ddmenu a:link, #ddmenu a:hover
+{
+    color:inherit;
+}
+#ddmenu a:hover
+{
+  /*  text-decoration:underline;*/
+}
+
+#ddmenu a:focus
+{
+   /* outline:1px dotted #09F;*/
+}
+
+/* caret(arrow icon) */
+#ddmenu .caret
+{
+    color:inherit;
+    left:-12px;
+    width: 0;
+    height: 0;
+    overflow:hidden;/*for IE6*/
+    vertical-align:middle;
+    margin-bottom:2px;
+    border-top: 4px solid;/*caret size is 4px now*/
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+    display: inline-block;
+    position:relative;
+}  
+        
+/* sub-menu layout
+----------------------------*/
+
+#ddmenu .dropdown
+{
+    width:auto;
+    left:0px;
+    color:#000;
+    padding:0;
+    margin:0;
+    display:none;
+    position:absolute;
+    overflow:hidden;
+    top:100%;
+    padding:0;
+    border-bottom:1px solid #595d63;
+border-top:none;
+border-radius:2px;
+/*background-color:rgba(0,0,0,0.2);*/
+/*background-color:#ccc \9;/*fallback for old IE*/*/
+}
+
+#ddmenu .full-width .dropdown {
+    width:100%;
+    margin:0;
+}
+
+#ddmenu .offset300 {
+    left:-300px;right:auto;
+}
+
+#ddmenu .right-aligned {
+    left:auto;
+    right:0px;
+}
+
+#ddmenu .over .dropdown
+{
+    display:block;
+}
+
+#ddmenu .dd-inner {
+    text-align:center;
+   /* padding:17px;*/
+    /*margin:16px;*/
+    opacity:0.9;
+    background-color:#000000;
+    white-space:nowrap;
+    font-size:13px;
+}
+
+#ddmenu ul ul
+{ 
+    margin:0;
+    padding:0;
+    text-align:left;
+    width:auto;
+    background:none;
+    border:none;
+    display:block;
+    position:static;
+    z-index:0;
+    border-radius:0;
+}
+
+#ddmenu ul ul li
+{
+    font-size:13px;
+    padding:0px; /*It determines the line height*/
+    color:inherit;
+    line-height:1;
+    margin:0;display:block;position:static;background:none;border:none;transition:none;border-radius:0;
+}
+  
+/* links in sub menu
+----------------------------*/
+
+#ddmenu .dropdown a
+{
+    color:#747474;
+    line-height:1;
+    text-decoration:none;
+    transition:color 0.4s;
+}
+
+#ddmenu .dropdown a:hover, #ddmenu .dropdown a:focus
+{
+    text-decoration:none;
+    color:white;
+}
+
+/* blocks within the sub-menu
+-----------------------------*/
+#ddmenu .column
+{
+    text-align:left;
+    vertical-align:top;/*or middle*/
+    display:inline-block;
+    *display:inline;*zoom:1;
+    font-family: 'futura';
+    white-space:normal;
+    width:auto;min-width:200px;
+padding:0 45px;
+/*border-left:1px solid #999;*/
+}
+
+#ddmenu .dd-inner ul:last-child
+{
+    border-right:none;
+}
+
+#ddmenu h3 {
+  font-weight: 500;
+  line-height: 1.1;
+  margin-top: 12px;
+  margin-bottom: 8px;
+  font-size: 24px;
+}
+
+#ddmenu div.column h3 {text-transform:uppercase;}
+#ddmenuLink {display:none;}
+

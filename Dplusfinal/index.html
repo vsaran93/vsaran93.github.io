@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Dplus Architects</title>
+    <link href="css/ddmenu.css" rel="stylesheet" type="text/css" />
+    <script src="css/ddmenu.js" type="text/javascript"></script>
+    <link rel="icon" href="logo.jpg" type="image/x-icon">
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+    <script type="text/javascript" src="engine1/jquery.js"></script>
+    <link href="http://allfont.net/allfont.css?fonts=agency-fb" rel="stylesheet" type="text/css" />
+    <style>
+        /*The following are for this demo page only (not required for the ddmenu).*/
+      /*  body { background: #eee url(ddmenu/ddmenu-bg.jpg) no-repeat center 0px; padding-top:90px;}*/
+    </style>
+</head>
+<body>
+<div class="main">
+  <div class="header">
+    <div class="header_resize">
+<nav id="ddmenu">
+    <ul>
+    	 <li><img src="logo.jpg"></li>
+        <li class="no-sub active"><a class="top-heading" href="index.html">HOME</a></li>
+        <li class="no-sub"><a class="top-heading" href="about.html">ABOUT US</a></li>
+        <li class="no-sub"><a class="top-heading" href="support.html">AWARDS</a></li>
+        <li class="full-width">
+            <span class="top-heading">GALLERY</span>
+           <!--  <i class="caret"></i> -->
+            <div class="dropdown">
+                <div class="dd-inner">
+                    <ul class="column">
+                    </ul>
+                    <ul class="column">
+                    	
+                    </ul>
+                    <ul class="column mayHide">
+                        <li><a href="resi.html">Residence</a></li>
+                        <li><a href="apart.html">Apartments</a></li>
+                        <li><a href="hotels.html">Hotels</a></li>
+                        <li><a href="rest.html">Resturants</a></li>
+                        <li><a href="office.html">Commercial & Office Building</a></li>
+                        <li><a href="inte.html">Interior Projects</a></li>
+                    </ul>
+                </div>
+            </div>
+        </li>
+        <li class="no-sub"><a class="top-heading" href="contact.html">CONTACT US</a></li>
+    </ul>
+</nav>
+</div>
+<div class="clr"></div>
+ <hr>
+ <script>
+var windowHeight;
+var headerHeight;
+var footerHeight;
+var headerClosed;
+var lid=true;
+$(window).bind("load resize", function(){
+  windowHeight = $(window).height()-455;
+  headerHeight = (windowHeight/2)+25;
+  footerHeight = (windowHeight/2)-25;
+  headerClosed = $(window).height()-footerHeight+25;
+
+if(lid) { $('#header').css({'height':headerClosed}); }
+else { $('#header').css({'height':headerHeight}); }
+$('#footer').css({'height':footerHeight});
+$('#container').css({'margin-top':headerHeight});
+});
+ </script>
+ <div id="wowslider-container1">
+<div class="ws_images"><ul>
+    <li><img src="data1/images/s1.jpg" alt="s1" title="s1" id="wows1_0"/></li>
+    <li><img src="data1/images/s2.jpg" alt="s2" title="s2" id="wows1_1"/></li>
+    <li><img src="data1/images/s3.jpg" alt="s3" title="s3" id="wows1_2"/></li>
+    <li><img src="data1/images/s4.jpg" alt="s4" title="s4" id="wows1_3"/></li>
+    <li><img src="data1/images/s5.jpg" alt="jquery slider" title="s5" id="wows1_4"/></a></li>
+    <li><img src="data1/images/s6.jpg" alt="s6" title="s6" id="wows1_5"/></li>
+  </ul></div>
+  <div class="ws_bullets"><div>
+    <a href="#" title="s1"><span><img src="data1/tooltips/s1.jpg" alt="s1"/>1</span></a>
+    <a href="#" title="s2"><span><img src="data1/tooltips/s2.jpg" alt="s2"/>2</span></a>
+    <a href="#" title="s3"><span><img src="data1/tooltips/s3.jpg" alt="s3"/>3</span></a>
+    <a href="#" title="s4"><span><img src="data1/tooltips/s4.jpg" alt="s4"/>4</span></a>
+    <a href="#" title="s5"><span><img src="data1/tooltips/s5.jpg" alt="s5"/>5</span></a>
+    <a href="#" title="s6"><span><img src="data1/tooltips/s6.jpg" alt="s6"/>6</span></a>
+  </div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wowslider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>  
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+      <div class="clr"></div>
+    </div>
+  </div>
+  </div>
+  <div class="footer">
+    <div class="footer_resize">
+      <p class="lf">Copyright &copy; <a href="#">www.dplusarchitects.com</a>. All Rights Reserved</p>
+      <p class="rf">Developed by <a target="_blank" href="http://www.dreamtemplate.com/">eGreenz</a></p>
+      <div style="clear:both;"></div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

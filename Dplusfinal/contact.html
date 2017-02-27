@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dplus Architects | Contactus</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="icon" href="logo.jpg" type="image/x-icon">
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="css/coin-slider.css" />
+<link href="css/ddmenu.css" rel="stylesheet" type="text/css" />
+<script src="css/ddmenu.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/coin-slider.min.js"></script>
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<style>
+    #map {
+      height: 300px;
+      width: 400px;
+      border: 1px solid black;
+    }
+  </style>
+</head>
+<body>
+<script>
+  function initMap() {
+    var uluru = {lat: 6.880770, lng: 79.887251};
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 18,
+      center: uluru
+    });
+    var marker = new google.maps.Marker({
+      position: uluru,
+      map: map
+    });
+  }
+</script>
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASH2I2BzZYqLRjwXoS5ixRWCNmbYnIYiQ&callback=initMap">
+</script>
+<div class="main">
+  <div class="header">
+    <div class="header_resize">
+<nav id="ddmenu">
+    
+    <ul>
+      <li><img src="logo.jpg"></li>
+        <li class="no-sub"><a class="top-heading" href="index.html">HOME</a></li>
+        <li class="no-sub"><a class="top-heading" href="about.html">ABOUT US</a></li>
+        <li class="no-sub"><a class="top-heading" href="support.html">AWARDS</a></li>
+        <li class="full-width">
+            <span class="top-heading">GALLERY</span>
+           <!--  <i class="caret"></i> -->
+            <div class="dropdown">
+                <div class="dd-inner">
+                    <ul class="column">
+                    </ul>
+                    <ul class="column">
+                      
+                    </ul>
+                    <ul class="column mayHide">
+                        <li><a href="resi.html">Residence</a></li>
+                        <li><a href="apart.html">Apartments</a></li>
+                        <li><a href="hotels.html">Hotels</a></li>
+                        <li><a href="rest.html">Resturants</a></li>
+                        <li><a href="office.html">Commercial & Office Building</a></li>
+                        <li><a href="inte.html">Interior Projects</a></li>
+                    </ul>
+                </div>
+            </div>
+        </li>
+        <li class="no-sub"><a class="top-heading" href="contact.html">CONTACT US</a></li>
+    </ul>
+</nav>
+</div>
+<div class="clr"></div>
+ <hr>
+      <div class="logo">
+      </div>
+      <div class="clr"></div>
+      <div class="slider">
+        <div class="clr"></div>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="content">
+    <div class="content_resize">
+      <div class="mainbar">
+        <div class="article">
+          <h2 style="color:#88001e"><span>Contact</span></h2>
+          <div class="clr"></div>
+          <p style="font-size: 13px;">No : 24/12 , Vijayaba Mawatha , Nawala Road , Nugegoda , Sri Lanka  <br>
+            Voice : +94 112  825 000 ,  +94  112 199 798 , +94  777 752 525 , +94 778 611 230<br>
+             Email : info@dplusarchitects.com , dplusarchi@gmail.com<br>
+            Web :  www.dplusarchitects.com
+          </p>
+          <h2 style="color:#88001e">Our Location </h2> <br>
+          <div id="map"></div>
+        </div>
+        <div class="article">
+          <h2 style="color: #88001e;"><span>Send Us</span> Mail</h2>
+          <div class="clr"></div>
+          <form action="#" method="post" id="sendemail">
+            <ol style="font-size: 13px;">
+              <li>
+                <label for="name">Name (Required)</label>
+                <input id="name" name="name" class="text" />
+              </li>
+              <li>
+                <label for="email">Email Address (Required)</label>
+                <input id="email" name="email" class="text" />
+              </li>
+              <li>
+                <label for="website">Subject</label>
+                <input id="website" name="website" class="text" />
+              </li>
+              <li>
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" rows="8" cols="50"></textarea>
+              </li>
+              <li>
+                <input type="image" name="imageField" id="imageField" src="images/submit.gif" class="send" />
+                <div class="clr"></div>
+              </li>
+            </ol>
+          </form>
+        </div>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer_resize">
+      <p class="lf">Copyright &copy; <a href="#">www.dplusarchitects.com</a>. All Rights Reserved</p>
+      <p class="rf">Developed by eGreenz</a></p>
+      <div style="clear:both;"></div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
