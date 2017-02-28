@@ -71,8 +71,8 @@ border-radius:4px;
 #ddmenu li
 {
     margin:0;
-    padding:0 13px;
-    margin-left: 6px;
+    padding:0 10px;
+    margin-left: 10px;
     font-size:12px;
     font-family: 'futura';
     display:inline-block;
@@ -248,7 +248,7 @@ border-radius:2px;
     font-family: 'futura';
     white-space:normal;
     width:auto;min-width:200px;
-padding:0 45px;
+padding:0 38px;
 /*border-left:1px solid #999;*/
 }
 

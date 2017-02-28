@@ -18,4 +18,4 @@ function ws_stack(d,a,b){var e=jQuery;var g=e(this);var c=e("li",b);var f=e("<di
 // Obfuscated by Javascript Obfuscator
 // http://javascript-source.com
 //***********************************************
-jQuery("#wowslider-container1").wowSlider({effect:"stack",prev:"",next:"",duration:20*100,delay:20*100,width:900,height:440,autoPlay:false,autoPlayVideo:false,playPause:false,stopOnHover:false,loop:false,bullets:0,caption:false,captionEffect:"parallax",controls:true,controlsThumb:false,responsive:1,fullScreen:false,gestures:2,onBeforeStep:0,images:0});
+jQuery("#wowslider-container1").wowSlider({effect:"Basic",prev:"",next:"",duration:15*100,delay:15*100,width:900,height:440,autoPlay:false,autoPlayVideo:false,playPause:false,stopOnHover:false,loop:false,bullets:0,caption:false,captionEffect:"parallax",controls:true,controlsThumb:false,responsive:1,fullScreen:false,gestures:2,onBeforeStep:0,images:0});
