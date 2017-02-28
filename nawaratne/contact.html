@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Architect | Nawaratne</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="css/coin-slider.css" />
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/coin-slider.min.js"></script>
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<style>
+    #map {
+      height: 300px;
+      width: 400px;
+      border: 1px solid black;
+    }
+  </style>
+</head>
+<script>
+  function initMap() {
+    var uluru = {lat: 6.903244, lng: 79.903173};
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 19,
+      center: uluru
+    });
+    var marker = new google.maps.Marker({
+      position: uluru,
+      map: map
+    });
+  }
+</script>
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASH2I2BzZYqLRjwXoS5ixRWCNmbYnIYiQ&callback=initMap">
+</script>
+<body>
+<div class="main">
+  <div class="header">
+    <div class="header_resize">
+      <div class="menu_nav">
+       <ul>
+          <li><a style="padding: 0px;" href="index.html"><img src="logo.jpg"></a></li>
+          <li style="margin-left: 200px;"><a href="hom.html"><span>Home</span></a></li>
+          <li><a href="about.html"><span>About Us</span></a></li>
+          <li><a href="support.html"><span>Projects</span></a></li>
+          <li><a href="contact.html"><span>Contact Us</span></a></li>
+        </ul>
+      </div>
+      </div>
+       <hr>
+      <div class="clr"></div>
+      <div class="logo">
+      </div>
+      <div class="clr"></div>
+      <div class="slider">
+        <div class="clr"></div>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="content">
+    <div class="content_resize">
+      <div class="mainbar">
+        <div class="article">
+          <h2 style="font-family: 'bookman';color:black;"><span>Contact</span></h2>
+          <div class="clr"></div>
+          <p style="font-size: 14px;color:#4c4c4a;text-align: justify;">No:13/3 A, Uswatte Mawatha, Ethul-kotte, Kotte, Sri Lanka  <br>
+            Voice : +94 112 886 058,  +94 773 059 266 <br>
+            Email : nishannawaratne@gmail.com, info@architectnishandhammikanawaratne.com <br>
+            Website : www.architectnishandhammikanawaratne.com  <br>
+            Opening Hours : <br>
+            Monday - Friday &nbsp;&nbsp; 8.30am - 5pm <br>
+            Saturday / Sunday &nbsp;Closed.
+            <h2 style="font-family: 'bookman';color:black;"><span>Our Location</span></h2>
+            <div id="map"></div>
+          </p>
+        </div>
+        <div class="article">
+          <h2 style="font-family: 'bookman';color:black;"><span>Send Us</span> Mail</h2>
+          <div class="clr"></div>
+          <form action="#" method="post" id="sendemail">
+            <ol style="color:#4c4c4a;">
+              <li>
+                <label for="name">Name (required)</label>
+                <input id="name" name="name" class="text" />
+              </li>
+              <li>
+                <label for="email">Email Address (required)</label>
+                <input id="email" name="email" class="text" />
+              </li>
+              <li>
+                <label for="website">Subject</label>
+                <input id="website" name="website" class="text" />
+              </li>
+              <li>
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" rows="8" cols="50"></textarea>
+              </li>
+              <li>
+                <input type="image" name="imageField" id="imageField" src="images/submit.gif" class="send" />
+                <div class="clr"></div>
+              </li>
+            </ol>
+          </form>
+        </div>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer_resize">
+      <p class="lf">Copyright &copy; www.architectnishandhammikanawaratne.com &nbsp; All Rights Reserved</p>
+      <p class="rf">Developed by eGreenz</a></p>
+      <div style="clear:both;"></div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
