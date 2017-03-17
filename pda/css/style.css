@@ -4,9 +4,14 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
+@font-face {
+    font-family:futura;
+    src:url(../fonts/futura-book.ttf);
+}
 body{
 	margin:0;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'futura';
+    font-size:11px;
 	background: #fff;  
 }
 body a{
@@ -38,9 +43,9 @@ body a:focus {
 } 
 /*-- top-nav--*/
 .headerw3l{
-    padding: 1.5em 0 1.1em;
+    padding: 0.5em 0 1.1em;
     border-bottom: 3px solid #fff;
-    background: #000;
+    background: #333333;
 }
 .navbar-default {
     background: none;
@@ -73,7 +78,7 @@ ul.nav.navbar-nav.navbar-left {
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
 	background:none !important; 
-	color: #1831f2;
+	color: #e9ffff;
 }
 .navbar-nav > li {
     margin-right: 2.5em;
@@ -84,7 +89,7 @@ ul.nav.navbar-nav.navbar-left {
 .navbar-nav > li > a {
     font-size: 12px;
     padding: 0;
-	line-height: 35px;
+	line-height:45px;
 }
 .navbar-default .navbar-nav > li > a {
     color: #fff;
@@ -150,7 +155,7 @@ div#bs-example-navbar-collapse-1 {
 
 .link--yaku:hover span {
 	/*color: #ff2f68;*/
-     color:#1831f2;
+     color:#e9ffff;
 	-webkit-transform: perspective(1000px) rotate3d(0,1,0,360deg);
 	-moz-transform: perspective(1000px) rotate3d(0,1,0,360deg);
 	-o-transform: perspective(1000px) rotate3d(0,1,0,360deg);
@@ -282,11 +287,12 @@ a.agilebtn {
 /*-- //banner --*/ 
 /*-- about --*/  
 .about,.news,.services,.testimonial,.about,.team,.contact,.gallery,.codes{
-	padding:5em 0;
+	padding:2em 0;
 }
 .about h4 {
     font-size: 1.8em;
-    color: #1831f2;
+    font-family:'futura';
+    color: #999;
     font-weight: 300;
     margin-bottom: 0.4em;
 }
@@ -302,13 +308,15 @@ a.agilebtn {
 }
 p {
     font-size: 1em;
-    color: #999;
+    color: #000;
+    text-align: justify;
+    width:800px;
     line-height: 1.8em;
 }
 h3.agileits-title {
     font-size: 4em;
     padding: 0.8em 2em;
-    font-family: 'Parisienne', cursive;
+    font-family: 'futura';
     text-align: center;
     line-height: 1.3em;
 	color: #00bcd4;
@@ -475,7 +483,7 @@ h3.agileits-title1 {
 /*-- footer --*/
 .footer {
     background: #1d1d1d;
-    padding: 3em 0;
+    padding: 2em 0;
 }
 .footer h3 {
     font-size: 2.5em;
@@ -569,15 +577,19 @@ h3.agileits-title1 {
    color: #00BCD4;
 }
 .copy-right {
-    padding: 2em 0; 
-	background: #000;
+    padding: 1.8em 0; 
+    height:70px;
+	background: #333333;
 }
 .copy-right p {
-    text-align: center;
+    text-align: left;
+    padding-left:20px;
+    font-size:12px;
+    float:left;
     color: #fff;
 }
 .copy-right p a{ 
-    color: #1831f2;
+    color: #fff;
 	text-decoration:none;
 }
 .copy-right p a:hover{ 
@@ -606,7 +618,8 @@ h3.w3ltitle {
     margin-top: 1.5em;
     font-weight: 300;
 } 
-.about-wthreegrids img {
+.about-
+grids img {
     width: 100%;
 } 
 .about-wthreegrids:nth-child(1) {
@@ -879,6 +892,8 @@ h3.w3ltitle {
 .contact-left iframe {
     width: 100%;
     min-height: 32.5em;
+    padding:0;
+    margin:0;
     border: none;
 }
 .contact input[type="text"] {
@@ -2206,7 +2221,7 @@ h3.agileits-title1 {
     padding: 2em 0;
 }
 .copy-right {
-    padding: 1.5em 0; 
+    padding: 2em 0; 
 }
 .about-w3banner .banner-w3text h2 {
     font-size: 2em;
