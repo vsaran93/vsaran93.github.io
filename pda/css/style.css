@@ -6,7 +6,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 @font-face {
     font-family:futura;
-    src:url(../fonts/futura-book.ttf);
+    src:url(../fonts/arial-narrow.ttf);
 }
 body{
 	margin:0;
@@ -25,7 +25,7 @@ body a{
 }
 h1,h2,h3,h4,h5,h6{
 	margin:0; 
-	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-family: 'futura';
 }
 p{
 	margin:0;
@@ -68,10 +68,10 @@ body a:focus {
     margin-top: 0.3em;
     letter-spacing: 3px;
     color: #fff;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: 'futura';
 }
 ul.nav.navbar-nav.navbar-left {
-    margin-top: 1.3em;
+    margin-top: 0.7em;
 }
 .navbar-default .navbar-brand,.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus{
 	color:#fff;
@@ -89,7 +89,7 @@ ul.nav.navbar-nav.navbar-left {
 .navbar-nav > li > a {
     font-size: 12px;
     padding: 0;
-	line-height:45px;
+	line-height:23px;
 }
 .navbar-default .navbar-nav > li > a {
     color: #fff;
@@ -290,9 +290,9 @@ a.agilebtn {
 	padding:2em 0;
 }
 .about h4 {
-    font-size: 1.8em;
+    font-size: 13px;
     font-family:'futura';
-    color: #999;
+    color: #000;
     font-weight: 300;
     margin-bottom: 0.4em;
 }
@@ -310,7 +310,6 @@ p {
     font-size: 1em;
     color: #000;
     text-align: justify;
-    width:800px;
     line-height: 1.8em;
 }
 h3.agileits-title {
@@ -577,13 +576,13 @@ h3.agileits-title1 {
    color: #00BCD4;
 }
 .copy-right {
-    padding: 1.8em 0; 
-    height:70px;
+    padding: 1.4em 0; 
+    height:50px;
 	background: #333333;
 }
 .copy-right p {
     text-align: left;
-    padding-left:20px;
+    padding-left:0px;
     font-size:12px;
     float:left;
     color: #fff;
@@ -934,8 +933,8 @@ grids img {
     font-size: 1em;
     margin: 1em 0 0 0;
     -webkit-appearance: none;
-    background: #1831f2;
-    border: solid 1px #1831f2;
+    background: #999;
+    border: solid 1px #999;
     border-radius: 3px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
@@ -947,7 +946,7 @@ grids img {
 }
 .contact input[type="submit"]:hover {
     background: none;
-    color: #1831f2;
+    color: #999;
 	-webkit-transform: scale(.8);
 	-moz-transform: scale(.8);
 	-o-transform: scale(.8);

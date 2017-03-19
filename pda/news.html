@@ -2,10 +2,13 @@
 <html lang="en">
 <head>
 <title>PDA</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="HandheldFriendly" content="true">
 <!-- <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script> -->
 <!-- Custom Theme files -->
+<link rel="stylesheet" href="dist/css/lightbox.min.css"> 
 <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
 <link href="css/style.css" type="text/css" rel="stylesheet" media="all">    
 <!-- //Custom Theme files -->
@@ -20,6 +23,36 @@
 <link href="//fonts.googleapis.com/css?family=Yanone+Kaffeesatz:200,300,400,700" rel="stylesheet">
 <link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'> -->
 <!-- //web-fonts -->
+<style type="text/css">
+@media only screen and (min-width: 32em) {
+  p {
+    line-height: 1.75em;
+    margin-bottom: 1.75em; /* match the line height */
+    /* grow the font-size with the available width, 1.5em is the maximum font size */
+  }
+}
+section {
+ /* max-width: 33em;*/
+  margin: 0 auto;
+  padding: 0;
+}
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+	/* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+}
+h4 {
+	font-family:'futura';
+	font-size:11px !important;
+}
+div a {
+	color: #000;
+}
+</style>
 </head>
 <body> 
 <img style="padding-left:100px;padding-top:7px;padding-bottom:6px;" src="logo.png">
@@ -58,27 +91,76 @@
 	<!-- //banner -->
 	<!-- about -->
 	<div class="about w3-agileits">
-		<div class="container">
-			<h3 style="font-family:'futura;'" >News</h3>
-			<table>
+	<section>
+		<div style="position: relative;" class="container">
+			<h3 style="font-family:'futura';font-size:13px;" ><b>News</b></h3><br>
+			<div style="overflow-x:auto;">
+			<table width="100%">
 			<tbody>
 			<tr>
 			<td width="40%">
-			<h4 style="font-size:11px;font-family:'futura';">Swarnavahini Sihina Niwahana : Progressive Design Associates (PDA)</h4>	
+			<h4>Swarnavahini Sihina Niwahana : Progressive Design Associates (PDA)</h4>	
 			<iframe width="350" height="197" src="https://www.youtube.com/embed/EdO2mtvxQtc?rel=0" frameborder="0" allowfullscreen></iframe></td>
 			<td width="20%"></td>
 			<td width="40%">
-			<h4 style="font-size:11px;font-family:'futura';">Sirasa TV Kadalla 2011-07-17 : Progressive Design Associates (PDA)</h4>
-			<iframe width="350" height="197" src="https://www.youtube.com/embed/mZkPM4ouGEE?rel=0" frameborder="0" allowfullscreen></iframe>
+			<h4>Sirasa TV Kadalla 2011-06-12 : Progressive Design Associates (PDA)</h4>
+			<iframe width="350" height="197" src="https://www.youtube.com/embed/Q-sXAsaKYe4?rel=0" frameborder="0" allowfullscreen></iframe>
 			</td>
 			</tr>
 			<tr>
-				<td width="40%"><h4 style="font-size:11px;font-family:'futura';">Sirasa TV Kadalla 2011-06-12 : Progressive Design Associates (PDA)</h4><iframe width="350" height="197" src="https://www.youtube.com/embed/Uicp4dRWktE?rel=0" frameborder="0" allowfullscreen></iframe></td>
+				<td width="40%"><h4>Sirasa TV Kadalla 2011-07-17 : Progressive Design Associates (PDA)</h4><iframe width="350" height="197" src="https://www.youtube.com/embed/YAva1GZuxV8?rel=0" frameborder="0" allowfullscreen></iframe></td>
 				<td width="20%"></td>
-				<td width="40%"><h4 style="font-size:11px;font-family:'futura';">Sirasa TV Kadalla 2009-06-21 : Progressive Design Associates (PDA)</h4><iframe width="350" height="197" src="https://www.youtube.com/embed/mZkPM4ouGEE?rel=0" frameborder="0" allowfullscreen></iframe></td>
+				<td width="40%"><h4>Sirasa TV Kadalla 2009-06-21 : Progressive Design Associates (PDA)</h4><iframe width="350" height="197" src="https://www.youtube.com/embed/bsxwPPz4Eoc?rel=0" frameborder="0" allowfullscreen></iframe></td>
 			</tr>
 			</tbody>
 			</table>
+			</div>
+			<hr>
+			<div>
+				<h3 style="font-family:'futura';font-size:13px;" ><b>Events</b></h3><br>
+				<div>
+				  <a class="example-image-link" href="dist/events/e1/1.jpg" data-lightbox="example-sete1" data-title="Award Ceramony for Green Buildings - May 2014">Award Ceramony for Green Buildings - May 2014<img style="display:none;" class="example-image" src="dist/events/e1/1.jpg" width="200px" height="150px" alt=""/></a>
+			      <a class="example-image-link" href="dist/events/e1/2.jpg" data-lightbox="example-sete1" data-title="Award Ceramony for Green Buildings - May 2014"><img style="display:none;" class="example-image" src="dist/events/e1/2.jpg" width="200px" height="150px" alt="" /></a>
+			      <a class="example-image-link" href="dist/events/e1/3.jpg" data-lightbox="example-sete1" data-title="Award Ceramony for Green Buildings - May 2014"><img style="display:none;" class="example-image" src="dist/events/e1/3.jpg" width="200px" height="150px" alt="" /></a>
+			      <a class="example-image-link" href="dist/events/e1/4.jpg" data-lightbox="example-sete1" data-title="Award Ceramony for Green Buildings - May 2014"><img  style="display:none;" class="example-image" src="dist/events/e1/4.jpg" width="200px" height="150px" alt="" /></a>
+			      </div><br>
+			      <div>
+			      <a class="example-image-link" href="dist/events/e2/1.jpg" data-lightbox="example-sete2" data-title="Ceremonial opening of Victoria- Sri Lanka Emergency Trauma Centre at Karapitiya">Ceremonial opening of Victoria- Sri Lanka Emergency Trauma Centre at Karapitiya<img style="display:none;" class="example-image" src="dist/events/e2/1.jpg" width="200px" height="150px" alt=""/></a>
+			      <a class="example-image-link" href="dist/events/e2/2.jpg" data-lightbox="example-sete2" data-title="Ceremonial opening of Victoria- Sri Lanka Emergency Trauma Centre at Karapitiya"><img style="display:none;" class="example-image" src="dist/events/e2/2.jpg" width="200px" height="150px" alt="" /></a>
+			      <a class="example-image-link" href="dist/events/e2/3.jpg" data-lightbox="example-sete2" data-title="Ceremonial opening of Victoria- Sri Lanka Emergency Trauma Centre at Karapitiya"><img style="display:none;" class="example-image" src="dist/events/e2/3.jpg" width="200px" height="150px" alt="" /></a>
+			      <a class="example-image-link" href="dist/events/e2/4.jpg" data-lightbox="example-sete2" data-title="Ceremonial opening of Victoria- Sri Lanka Emergency Trauma Centre at Karapitiya"><img  style="display:none;" class="example-image" src="dist/events/e2/4.jpg" width="200px" height="150px" alt="" /></a>
+			      <a class="example-image-link" href="dist/events/e2/5.jpg" data-lightbox="example-sete2" data-title="Ceremonial opening of Victoria- Sri Lanka Emergency Trauma Centre at Karapitiya"><img  style="display:none;" class="example-image" src="dist/events/e2/5.jpg" width="200px" height="150px" alt="" /></a>
+			      <a class="example-image-link" href="dist/events/e2/6.jpg" data-lightbox="example-sete2" data-title="Ceremonial opening of Victoria- Sri Lanka Emergency Trauma Centre at Karapitiya"><img  style="display:none;" class="example-image" src="dist/events/e2/6.jpg" width="200px" height="150px" alt="" /></a>
+			      </div><br>
+			      <div>
+			      <a class="example-image-link" href="dist/events/e3/1.jpg" data-lightbox="example-sete3" data-title="Ceremonial opening of Variosystems Factory Project Phase I">Ceremonial opening of Variosystems Factory Project Phase I<img style="display:none;" class="example-image" src="dist/events/e3/1.jpg" width="200px" height="150px" alt=""/></a>
+			      <a class="example-image-link" href="dist/events/e3/2.jpg" data-lightbox="example-sete3" data-title="Ceremonial opening of Variosystems Factory Project Phase I"><img style="display:none;" class="example-image" src="dist/events/e3/2.jpg" width="200px" height="150px" alt="" /></a>
+			      <a class="example-image-link" href="dist/events/e3/3.jpg" data-lightbox="example-sete3" data-title="Ceremonial opening of Variosystems Factory Project Phase I"><img style="display:none;" class="example-image" src="dist/events/e3/3.jpg" width="200px" height="150px" alt="" /></a>
+			      <a class="example-image-link" href="dist/events/e3/4.jpg" data-lightbox="example-sete3" data-title="Ceremonial opening of Variosystems Factory Project Phase I"><img  style="display:none;" class="example-image" src="dist/events/e3/4.jpg" width="200px" height="150px" alt="" /></a>
+			      <a class="example-image-link" href="dist/events/e3/5.jpg" data-lightbox="example-sete3" data-title="Ceremonial opening of Variosystems Factory Project Phase I"><img  style="display:none;" class="example-image" src="dist/events/e3/5.jpg" width="200px" height="150px" alt="" /></a>
+			      <a class="example-image-link" href="dist/events/e3/6.jpg" data-lightbox="example-sete3" data-title="Ceremonial opening of Variosystems Factory Project Phase I"><img  style="display:none;" class="example-image" src="dist/events/e3/6.jpg" width="200px" height="150px" alt="" /></a>
+			      <a class="example-image-link" href="dist/events/e3/7.jpg" data-lightbox="example-sete3" data-title="Ceremonial opening of Variosystems Factory Project Phase I"><img  style="display:none;" class="example-image" src="dist/events/e3/7.jpg" width="200px" height="150px" alt="" /></a>
+			      <a class="example-image-link" href="dist/events/e3/8.jpg" data-lightbox="example-sete3" data-title="Ceremonial opening of Variosystems Factory Project Phase I"><img  style="display:none;" class="example-image" src="dist/events/e3/8.jpg" width="200px" height="150px" alt="" /></a>
+			      <a class="example-image-link" href="dist/events/e3/9.jpg" data-lightbox="example-sete3" data-title="Ceremonial opening of Variosystems Factory Project Phase I"><img  style="display:none;" class="example-image" src="dist/events/e3/9.jpg" width="200px" height="150px" alt="" /></a>
+			      <a class="example-image-link" href="dist/events/e3/10.jpg" data-lightbox="example-sete3" data-title="Ceremonial opening of Variosystems Factory Project Phase I"><img  style="display:none;" class="example-image" src="dist/events/e3/10.jpg" width="200px" height="150px" alt="" /></a>
+			      <a class="example-image-link" href="dist/events/e3/11.jpg" data-lightbox="example-sete3" data-title="Ceremonial opening of Variosystems Factory Project Phase I"><img  style="display:none;" class="example-image" src="dist/events/e3/11.jpg" width="200px" height="150px" alt="" /></a>
+			      </div><br>
+			      <div>
+			      <a class="example-image-link" href="dist/events/e4/1.jpg" data-lightbox="example-sete4" data-title="Foundation Laying Ceremony - Variosystems (Pvt) Ltd - Project Phase I">Foundation Laying Ceremony - Variosystems (Pvt) Ltd - Project Phase I<img style="display:none;" class="example-image" src="dist/events/e4/1.jpg" width="200px" height="150px" alt=""/></a>
+			      <a class="example-image-link" href="dist/events/e4/2.jpg" data-lightbox="example-sete4" data-title="Foundation Laying Ceremony - Variosystems (Pvt) Ltd - Project Phase I"><img style="display:none;" class="example-image" src="dist/events/e4/2.jpg" width="200px" height="150px" alt="" /></a>
+			      <a class="example-image-link" href="dist/events/e4/3.jpg" data-lightbox="example-sete4" data-title="Foundation Laying Ceremony - Variosystems (Pvt) Ltd - Project Phase I"><img style="display:none;" class="example-image" src="dist/events/e4/3.jpg" width="200px" height="150px" alt="" /></a>
+			      <a class="example-image-link" href="dist/events/e4/4.jpg" data-lightbox="example-sete4" data-title="Foundation Laying Ceremony - Variosystems (Pvt) Ltd - Project Phase I"><img  style="display:none;" class="example-image" src="dist/events/e4/4.jpg" width="200px" height="150px" alt="" /></a>
+			      <a class="example-image-link" href="dist/events/e4/5.jpg" data-lightbox="example-sete4" data-title="Foundation Laying Ceremony - Variosystems (Pvt) Ltd - Project Phase I"><img  style="display:none;" class="example-image" src="dist/events/e4/5.jpg" width="200px" height="150px" alt="" /></a>
+			      </div><br>
+			      <div>
+			      <a class="example-image-link" href="dist/events/e5/1.jpg" data-lightbox="example-sete5" data-title="Polycrome Foundation Ceremony 02.01.2014">Polycrome Foundation Ceremony 02.01.2014<img style="display:none;" class="example-image" src="dist/events/e5/1.jpg" width="200px" height="150px" alt=""/></a>
+			      <a class="example-image-link" href="dist/events/e5/2.jpg" data-lightbox="example-sete5" data-title="Polycrome Foundation Ceremony 02.01.2014"><img style="display:none;" class="example-image" src="dist/events/e5/2.jpg" width="200px" height="150px" alt="" /></a>
+			      <a class="example-image-link" href="dist/events/e5/3.jpg" data-lightbox="example-sete5" data-title="Polycrome Foundation Ceremony 02.01.2014"><img style="display:none;" class="example-image" src="dist/events/e5/3.jpg" width="200px" height="150px" alt="" /></a>
+			      <a class="example-image-link" href="dist/events/e5/4.jpg" data-lightbox="example-sete5" data-title="Polycrome Foundation Ceremony 02.01.2014"><img  style="display:none;" class="example-image" src="dist/events/e5/4.jpg" width="200px" height="150px" alt="" /></a>
+			      </div><br>
+				<h4></h4><br>
+				 <script src="dist/js/lightbox-plus-jquery.min.js"></script>
+			</div>
 			</div>
 			<div class="clearfix"> </div>
 		</div>
@@ -93,7 +175,8 @@
 		<div class="container">
 			<p>© 2017 PDA . All rights reserved | Developed by <a href="#"> eGreenz </a></p>
 		</div>
-	</div>  
+	</div> 
+	</section> 
 	<!-- //footer --> 
 	<!-- start-smooth-scrolling -->
 	<script type="text/javascript" src="js/move-top.js"></script>
