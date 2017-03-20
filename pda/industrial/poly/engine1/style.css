@@ -54,7 +54,7 @@
 	max-height:540px;
 	max-width: 900px;
 	vertical-align: top;
-	border:none;
+	border:1px solid #FFFFFF;
 	overflow: hidden;
 }
 #wowslider-container1 .ws_images ul a{
@@ -214,14 +214,14 @@
 }
 
 #wowslider-container1 a.ws_next, #wowslider-container1 a.ws_prev {
-	background-size: 200%;
+	background-size: 170%;
 
 	position:absolute;
 	top:50%;
 	margin-top:-1.6em;
 	z-index:60;
-	height: 5em;
-	width: 3.9em;
+	height: 3em;
+	width: 2.9em;
 	background-image: url(./arrows.png);
 }
 #wowslider-container1 a.ws_next{
