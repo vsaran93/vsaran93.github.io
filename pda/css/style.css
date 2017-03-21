@@ -290,10 +290,11 @@ a.agilebtn {
 	padding:2em 0;
 }
 .about h4 {
-    font-size: 13px;
+    font-size: 14px;
     font-family:'futura';
-    color: #000;
-    font-weight: 300;
+    padding-left:10px;
+    color: #fff;
+    font-weight:100;
     margin-bottom: 0.4em;
 }
 .about-right ul li {
@@ -307,8 +308,10 @@ a.agilebtn {
 	color: #ff2f68;
 }
 p {
-    font-size: 1em;
-    color: #000;
+    font-size: 13px;
+    padding-left:10px;
+    padding-right:10px;
+    color: #fff;
     text-align: justify;
     line-height: 1.8em;
 }

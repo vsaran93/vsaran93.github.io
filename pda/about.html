@@ -48,14 +48,15 @@ only screen and (max-width: 760px),
 
 	/* Force table to not be like tables anymore */
 	table, thead, tbody, th, td, tr { 
-		display: block; 
+		display: block;
 	}
 </style>
 </head>
 <body> 
-<div class="header_resize">
-<img style="position:relative;padding-left:100px;padding-top:7px;padding-bottom:6px;" src="logo.png"></div>
+<div style="padding-left:100px;">
+<img style="position:relative;padding-top:7px;max-width: 100%;height:auto;padding-bottom:6px;" src="logo.png" media="(min-width: 400px)" ></div>
 	<!-- header -->
+	<div class="header_resize">
 	<div class="headerw3l">
 		<nav class="navbar navbar-default">
 			<div class="container">
@@ -93,10 +94,10 @@ only screen and (max-width: 760px),
 	<section>
 		<div style="position: relative;" class="container">
 			<div style="overflow-x:auto;">
-			<table width="43.5%" style="float:right;">
+			<table width="44.5%" style="float:right;background-color:black;color:#fff;">
 			<br> 
-				<tr><td><h3 style="font-family: 'futura';font-size:13px;"><b>About Us</b></h3></td></tr>
-				<tr><td><h4><b>History</b></h4>
+				<tr><td style="padding-bottom:10px;"><h3 style="font-family: 'futura';font-size:14px;padding-left:10px;padding-top:10px;">About Us </h3></td></tr>
+				<tr><td colspan="2"><h4>History</h4>
 				<p>Progressive Design Associates (Pvt) Ltd., (PDA) is an award winning company of Chartered Architects,
 				Green Building Consultants and Project Managers in Sri Lanka.</br>
 				Our practice was started in 1997 and registered as a sole proprietary company on 09th January 1998. It
@@ -105,13 +106,13 @@ only screen and (max-width: 760px),
 				PDA was appointed as the local representative of the State Government of Victoria, Australia from the year 2005 to 2010 to manage, monitor and report the post Tsunami projects that the State Government implemented in Sri Lanka. <br>
 				In the year 2014 one of our industrial project designed and managed for Variosystems (Pvt) Ltd., at Badalgama won the 1st Platinum Green Certificate from the Green Building Council of Sri Lanka.</p>
 				<br></td></tr>
-				<tr><td><h4><b>Philosophy</b></h4>
+				<tr><td colspan="2"><h4>Philosophy</h4>
 				<p>Maintaining close rapport with clients throughout the projects, in order to interpret their needs into three dimensional forms and spaces, innovative design solutions and efficiency on practice are the key factors we follow in our professional services.</br>
 				Creation and responsible management of a healthy built environment based on resource efficient and ecological principles is our theme of designs.</p>
 				<br></td></tr>
-				<tr><td><h4><b>Our Services</b></h4>
+				<tr><td colspan="2"><h4>Our Services</h4>
 				<p>PDA is able to offer excellent expertise in the following areas.</p>
-				<ul style="color: #000;padding-left:40px;">
+				<ul style="color: #fff;padding-left:40px;font-size:13px;">
 					<li>Architecture</li>
 					<li>Green Building Consultancy</li>
 					<li>Engineering</li>
@@ -123,55 +124,58 @@ only screen and (max-width: 760px),
 				</ul>
 				<p>The firm comprises a team of professionally qualified specialists from different disciplines such as Structural and Civil Engineering, Electrical and Mechanical Engineering, Quantity Surveying and Landscape Design, on assignment basis to offer consortium of services if requested by clients.</p>
 				<br></td></tr>
-				<tr><td><h4><b>Key Personnel</b></h4>
+				<tr><td width="50%"><h4>Key Personnel</h4>
 				<h5 style="font-family:futura;color:#000;"><b>Directors</b><h5>
-				<img src="img1.jpg" width="84px" height="106px">
+				<img style="padding-left:10px;" src="img1.jpg" width="96px" height="106px">
 				<p style="font-family:'futura';font-size:11px; text-align: justify;">Archt. Sanjaya A. Jayawardene <br>
 				<span style="font-size: 9px;">B.Sc. (B.E.) Hons., M.Sc. (Arch), RIBA,<br>
 				IPMSL, GREEN SLR AP, FIA (S.L.)</span><br>
 				Chartered Architect, Project Manager &<br>
-				Associate Green Building Consultant.</p>
-				<br>
-				<img src="img2.jpg" width="84px" height="92px">
+				Associate Green Building Consultant.</p></td>
+				<td width="50%">
+				<img src="img2.jpg" width="96px" height="106px">
 				<p style="font-family:'futura';font-size:11px; text-align: justify;">Palika C. Jayawardene <br>
 				<span style="font-size: 9px;">B.Sc. (B.E.), M.Sc. (Arch), RIBA, AIA (S.L.)</span> <br>
 				Chartered Architect
 				</p></td></tr>
 				<br>
-				<tr><td><h4><b>Associates</b></h4>
+				<tr><td><h4>Associates</h4>
 				<p>Ravindra Meewaddana<br>
 				<span style="font-size: 9px;">B.Sc. Eng (Hons), C.Eng., MICE (London), MIE (S.L.)</span><br>
-				Chartered Structural Engineer<br>
-				<br>
-				Bimal Fernando<br>
+				Chartered Structural Engineer<br></p></td>
+				<td>
+				<p>Bimal Fernando<br>
 				<span style="font-size: 9px;">B.Sc. (Eng) Hons, C.Eng., MIE (SL), PIM.</span><br>
 				Chartered Structural Engineer.
-				</p>
+				</p></td></tr>
+				<tr><td>
 				<p>D .S. K. Upali Jayalath<br>
 				<span style="font-size: 9px;">B.Sc. QS (Hons), ACIArb, ACIOBMACost E, AIQS (S.L.)</span> <br>
 				Chartered Quantity Surveyor.
-				</p>
+				</p></td>
+				<td>
 				<p>K. Shiran Jayalath<br>
 				<span style="font-size: 9px;">B.Sc. Eng (Mech.), AMIME (UK), AMIE (SL),<br>
 				GMCIBSE</span><br>
-				Electro-Mechanical Engineer.<br>
-				</p>
+				Electro-Mechanical Engineer.<br></p></td></tr>
+				<tr><td>
 				<p>Palitha Abayawardene <br>
 				<span style="font-size: 9px;">B.Sc. Eng (Mech.), AMIE (SL)</span><br>
 				Mechanical Engineer.<br>
-				</p>
+				</p></td>
+				<td>
 				<p>Samantha Kaluarachchi<br>
 				<span style="font-size: 9px;">SLIA (S.L.), MMACSL, CSC (Arch)</span><br>
 				Architectural Licentiate
 				</p></td></tr>
 				<br>
-				<tr><td><h4><b>Company Registration</b></h4>
+				<tr><td><h4>Company Registration</h4>
 				<p><span style="font-size:10px;">1st REGISTRATION:</span><br>
 				Reg.No.: CP/KDS/PS/768  Date: 09/01/1998<br>
 				<span style="font-size:10px;">Incorporated as a Private Company under the companies Act, No. 7 of 2007</span></br>
 				Reg.No.: P V 104336 Date: 10/03/2015</p>
 				<br>
-				<h4><b>Professional Registrations</b></h4>
+				<h4>Professional Registrations</h4>
 				<p>ARB Registration No. : CA 98226 / CA98227<br>
 				SLIA Reg. No. : PAB/R/SP/058</p></td></tr>
 				</table>
