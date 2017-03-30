@@ -78,7 +78,7 @@ section {
 }
 #page .header .footer .body #sidebar img#logo{
 	border:0;
-	margin:20px 0 20px 20px;
+	margin:30px 0 20px 45px;
 }
 #page .header .footer .body #sidebar ul.navigation{
 	margin:0 0 50px 8px;
@@ -87,6 +87,7 @@ section {
 	background-image:url("../images/border-dashed.gif");
 	background-repeat:repeat-x;
 	background-position:top;
+	text-align:center;
 	font-size:12px;
 	position:relative;
 	width:150px;
@@ -115,7 +116,7 @@ section {
 	left:0;
 	top:-5px;
 	text-align:left;
-	padding-left:15px;
+	padding-left:35px;
 	padding-right:10px;
 	color:#fff;
 	text-decoration:none;
