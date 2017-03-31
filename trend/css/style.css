@@ -401,3 +401,38 @@ section {
 #page .header .footer .body #content .featured .header ul li.last a:hover{
 	color:#ffffff;
 }
+
+form {
+	padding:0px !important;
+	margin:0 !important; 
+}
+ol {
+	list-style:none;
+}
+ol li {
+	display:block;
+	padding:0px;
+}
+ol li label {
+	display:block;
+	margin:0;
+	padding:10px 0 0 0;
+}
+ol li input.text {
+	width:480px;
+	border:1px solid #c0c0c0;
+	margin:0;
+	padding:5px 2px;
+	height:16px;
+	background-color:#fff;
+}
+ol li textarea {
+	width:480px;
+	border:1px solid #c0c0c0;
+	margin:0;
+	padding:2px;
+	background-color:#fff;
+}
+ol li .send {
+	margin:16px 0 0 0;
+}
