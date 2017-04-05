@@ -215,13 +215,13 @@
 	background-position: right top;
 }
 #wowslider-container1 a.ws_next, #wowslider-container1 a.ws_prev {
-	background-size: 200%;
+	background-size: 170%;
 
 	position:absolute;
 	top:50%;
 	margin-top:-2.1em;
 	z-index:60;
-	height: 4.3em;
+	height: 3.3em;
 	width: 2.9em;
 	background-image: url(./arrows.png);
 }
@@ -233,12 +233,12 @@
 	left:0;
 	background-position: 0 0; 
 }
-#wowslider-container1 a.ws_next:hover{
+/*#wowslider-container1 a.ws_next:hover{
 	background-position: 100% 100%;
 }
 #wowslider-container1 a.ws_prev:hover {
 	background-position: 0 100%; 
-}
+}*/
 
 /*playpause*/
 #wowslider-container1 .ws_playpause {
