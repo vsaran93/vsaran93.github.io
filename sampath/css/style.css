@@ -19,6 +19,8 @@ iframe, object, embed{max-width: 100%;}
 body {
 
 	font-family: 'arial';
+	/*font-family: 'Open Sans Condensed', sans-serif;*/
+
 }
 /*.site-name {
 	font-family: 'arial', sans-serif;
@@ -48,7 +50,7 @@ h1 {
 	margin-bottom: 20px;
 }
 h2 {
-	font-size: 18px;
+	font-size: 19px;
 	/*margin-bottom: 15px;*/
 }
 h3 {
@@ -336,8 +338,9 @@ blockquote {
 	transition: all 0.2s ease-in-out;
 }
 .btn-default {
-	color: #55acee;
-	border: 1px solid #cccccc;
+	color: #fff!important;
+	background-color:#333;
+	border: 1px solid #333;
 }
 .btn-default:hover {
 	color: #ffffff;
@@ -729,7 +732,8 @@ table td a {
 }
 
 table td {
-	padding:7px;
+	padding-top:7px;
+	padding-bottom:7px;
 }
 table td a:hover{
 	color:#999;
