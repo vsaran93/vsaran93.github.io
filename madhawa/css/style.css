@@ -111,18 +111,18 @@ h1 small {
 .menu_nav {
 	margin:0 auto;
 	padding:0;
-	height:85px;
+	height:65px;
     /*border-bottom: 1px solid #88001e;*/
 }
 .menu_nav ul {
 	list-style:none;
-	padding:23px 0 0;
+	padding:7px 0 0;
 	height:36px;
 	float:left;
 }
 .menu_nav ul li {
 	margin:0;
-	padding:0 13px;
+	padding:0 5px;
 	float:left;
 }
 .menu_nav ul li a {
@@ -137,6 +137,7 @@ h1 small {
 	text-align:center;
 	text-transform:uppercase;
 	background:none;
+	border:0.1px solid #999;
 	/*border-right:1px solid white;
 	border-left:1px solid white;*/
 }
