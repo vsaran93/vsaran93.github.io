@@ -3,12 +3,13 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #2A2A1E;
 }
 
 .li1 {
     float: left;
     padding:7px;
+    padding-left:15px;
    /* border-right:1px solid #bbb;*/
 }
 
@@ -52,7 +53,7 @@ section {
   bottom: 0;
   left: 0;
   padding: 1rem;
-  background-color: #333333;
+  background-color: #2A2A1E;
   text-align: left;
 }
 #background{
@@ -87,9 +88,10 @@ section {
 	height:35px;
 }
 #page .header .footer .body #sidebar{
+	margin-top:50px;
 	width:162px;
 	float:left;
-	background-color: #666666;
+	background-color: #000;
 }
 #page .header .footer .body #sidebar img#logo{
 	border:0;
@@ -99,11 +101,11 @@ section {
 	margin:0 0 50px 8px;
 	padding:5px 0 0 0;
 	list-style-type:none;
-	background-image:url("../images/border-dashed.gif");
+	/*background-image:url("../images/border-dashed.gif");*/
 	background-repeat:repeat-x;
 	background-position:top;
 	text-align:center;
-	font-size:12px;
+	font-size:14px;
 	position:relative;
 	width:150px;
 	z-index:9990;
@@ -112,15 +114,17 @@ section {
 	width:150px;
 	height:40px;
 	position:relative;
-	line-height:40px;
-	background-image:url("../images/menu-separator.jpg");
+	line-height:50px;
+	/*background-image:url("../images/menu-separator.jpg");*/
+	border-bottom:1px solid #333;
 	background-repeat:no-repeat;
 	background-position:0 35px;
 }
 #page .header .footer .body #sidebar ul.navigation li.last{
-	background-image:url("../images/border-dashed.gif");
+	/*background-image:url("../images/border-dashed.gif");*/
 	background-repeat:repeat-x;
 	background-position:bottom;
+	border-bottom:none;
 }
 #page .header .footer .body #sidebar ul.navigation li a{
 	width:214px;
@@ -142,7 +146,7 @@ section {
 	height:40px;
 	display:block;
 	position:absolute;
-	color:#f76c0f;
+	color:#F5881B;
 	/*background:url("../images/sprite.gif");*/
 	background-repeat:no-repeat;
 	background-position:200px -228px;
@@ -154,7 +158,7 @@ section {
 	height:40px;
 	display:block;
 	position:absolute;
-	color:#f76c0f;
+	color:#F5881B;
 	/*background:url("../images/sprite.gif");*/
 	background-repeat:no-repeat;
 	background-position:200px -228px;
