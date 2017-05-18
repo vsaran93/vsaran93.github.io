@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #2A2A1E;
+    background-color: #8c9093;
 }
 
 .li1 {
@@ -13,6 +13,21 @@
    /* border-right:1px solid #bbb;*/
 }
 
+table {
+	padding: 0;
+	margin: 0;
+}
+
+table tr {
+	padding: 0;
+}
+
+table td {
+	padding: 0px;
+	background-repeat:repeat-x;
+	padding-bottom: none;
+	margin-bottom: none;
+}
 
 @font-face {
     font-family:gothic;
@@ -25,7 +40,7 @@ body{
 	font-family:'gothic';
 	font-size:13px;
 	line-height:25px;
-	color:#fff;
+	color:#000;
 	text-align:justify;
 	background-image:url("../images/bg-body.png");
 }
@@ -53,7 +68,7 @@ section {
   bottom: 0;
   left: 0;
   padding: 1rem;
-  background-color: #2A2A1E;
+  background-color: #8c9093;
   text-align: left;
 }
 #background{
@@ -91,7 +106,7 @@ section {
 	margin-top:50px;
 	width:162px;
 	float:left;
-	background-color: #000;
+	background-color: #bfbdbe;
 }
 #page .header .footer .body #sidebar img#logo{
 	border:0;
@@ -105,7 +120,7 @@ section {
 	background-repeat:repeat-x;
 	background-position:top;
 	text-align:center;
-	font-size:14px;
+	font-size:18px;
 	position:relative;
 	width:150px;
 	z-index:9990;
@@ -137,7 +152,7 @@ section {
 	text-align:left;
 	padding-left:40px;
 	padding-right:10px;
-	color:#fff;
+	color:#000;
 	text-decoration:none;
 }
 #page .header .footer .body #sidebar ul.navigation li a:hover{
@@ -158,7 +173,7 @@ section {
 	height:40px;
 	display:block;
 	position:absolute;
-	color:#F5881B;
+	color:#616469;
 	/*background:url("../images/sprite.gif");*/
 	background-repeat:no-repeat;
 	background-position:200px -228px;

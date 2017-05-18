@@ -11,6 +11,7 @@
 	max-width: 1200px;
 	max-height:500px;
 	margin:0px auto 0px;
+	padding:0;
 	z-index:90;
 	text-align:left; /* reset align=center */
 	font-size: 10px;
