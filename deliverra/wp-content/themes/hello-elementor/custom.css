@@ -1,0 +1,43 @@
+.mf-form-wrapper input,
+  .mf-form-wrapper textarea,
+  .mf-form-wrapper button {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px; /* spacing between fields */
+    box-sizing: border-box;
+  }
+
+  /* Add padding and box shadow to the entire form wrapper */
+  .mf-form-wrapper {
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  /* Optional: Improve field appearance */
+  .mf-input,
+  .mf-textarea {
+    padding: 12px 16px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+
+  /* Improve submit button look */
+  .metform-submit-btn {
+    background-color: #0073e6;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .metform-submit-btn:hover {
+    background-color: #005bb5;
+  }
