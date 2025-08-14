@@ -7497,7 +7497,7 @@ form.widget.widget_search .theme-input-group .submit-btn {
   right: 0;
   top: 0;
   z-index: 9999;
-  background-color: #fff;
+  background-color: #5c3cbb;
   padding: 50px;
   overflow: hidden;
   overflow-y: auto;
@@ -7585,7 +7585,7 @@ form.widget.widget_search .theme-input-group .submit-btn {
   color: #292929;
 }
 #mobile_menu .mobile-main-menu.plugin .nav li a {
-  color: #292929;
+  color: #fff;
 }
 #mobile_menu .mobile-main-menu.management .nav li a {
   color: #292929;
