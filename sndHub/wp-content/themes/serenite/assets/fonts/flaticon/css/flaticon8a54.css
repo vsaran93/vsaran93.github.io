@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("../fonts/flaticon951f.html?27dea146f150d81c0e4f1e9a995de0f2") format("truetype"),
+    url("../fonts/flaticon951f-2.html?27dea146f150d81c0e4f1e9a995de0f2") format("woff"),
+    url("../fonts/flaticon951f-3.html?27dea146f150d81c0e4f1e9a995de0f2") format("woff2"),
+    url("../fonts/flaticon951f-4.html?27dea146f150d81c0e4f1e9a995de0f2#iefix") format("embedded-opentype"),
+    url("../fonts/flaticon951f-5.html?27dea146f150d81c0e4f1e9a995de0f2#flaticon") format("svg");
+}
+
+[class^="flaticon-"], [class*=" flaticon-"]{
+    display: inline-flex;
+    vertical-align: middle;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {  
+    font-family: flaticon;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    vertical-align: middle;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-vector:before {
+    content: "\f101";
+}
+.flaticon-paint-roller:before {
+    content: "\f102";
+}
+.flaticon-ruler:before {
+    content: "\f103";
+}
+.flaticon-compass:before {
+    content: "\f104";
+}
+.flaticon-sketch:before {
+    content: "\f105";
+}
+.flaticon-right-arrow:before {
+    content: "\f106";
+}
+.flaticon-play:before {
+    content: "\f107";
+}
+.flaticon-right-chevron:before {
+    content: "\f108";
+}
