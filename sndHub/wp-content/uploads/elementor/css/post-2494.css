@@ -1,0 +1,89 @@
+.elementor-2494
+  .elementor-element.elementor-element-32822e7
+  > .elementor-container {
+  min-height: 90vh;
+}
+.elementor-bc-flex-widget
+  .elementor-2494
+  .elementor-element.elementor-element-086b606.elementor-column
+  .elementor-widget-wrap {
+  align-items: space-between;
+}
+.elementor-2494
+  .elementor-element.elementor-element-086b606.elementor-column.elementor-element[data-element_type="column"]
+  > .elementor-widget-wrap.elementor-element-populated {
+  align-content: space-between;
+  align-items: space-between;
+}
+.elementor-2494 .elementor-element.elementor-element-d324bdf .pxl-logo img {
+  max-width: 150px;
+}
+.elementor-2494
+  .elementor-element.elementor-element-d324bdf
+  > .elementor-widget-container {
+  margin: 0px 0px 20px 0px;
+}
+.elementor-2494
+  .elementor-element.elementor-element-cdb8631
+  > .elementor-container
+  > .elementor-column
+  > .elementor-widget-wrap {
+  align-content: flex-end;
+  align-items: flex-end;
+}
+.elementor-2494
+  .elementor-element.elementor-element-3ce1325
+  .pxl-heading-wrap
+  .heading-title {
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0px;
+}
+.elementor-2494
+  .elementor-element.elementor-element-3ce1325
+  .pxl-heading-wrap
+  .heading-title
+  b,
+.elementor-2494
+  .elementor-element.elementor-element-3ce1325
+  .pxl-heading-wrap
+  .heading-title
+  strong {
+  white-space: nowrap;
+}
+.elementor-2494
+  .elementor-element.elementor-element-3ce1325
+  > .elementor-widget-container {
+  margin: 24px 0px 12px 0px;
+}
+.elementor-2494 .elementor-element.elementor-element-30bd76d .qc-content-wrap {
+  color: #1b1642;
+  font-size: 0.8rem;
+}
+.elementor-2494
+  .elementor-element.elementor-element-30bd76d
+  .qc-content-wrap
+  a {
+  color: #1b1642;
+}
+.elementor-2494
+  .elementor-element.elementor-element-30bd76d
+  .qc-content-wrap
+  a:hover {
+  color: #7d8cff;
+}
+.elementor-2494
+  .elementor-element.elementor-element-30bd76d
+  .pxl-qc-wrap
+  .qc-item
+  .pxl-icon {
+  font-size: 18px;
+  margin-right: 12px;
+}
+.elementor-2494
+  .elementor-element.elementor-element-30bd76d
+  .qc-content-wrap
+  .qc-item
+  + .qc-item {
+  margin-top: 3px;
+}
