@@ -1,439 +1,700 @@
 <!DOCTYPE html>
-<html lang="zxx">
-  <head>
-    <title>nexHub</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700%7cUbuntu:300,300i,400,400i,500,500i,700&amp;display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
-    <link
-      rel="stylesheet"
-      href="assets/plugins/owlcarousel/owl.carousel.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="assets/plugins/magnific-popup/magnific-popup.css"
-    />
-    <link rel="stylesheet" href="assets/plugins/swiper-slider/swiper.min.css" />
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/custom.css" />
-  </head>
-  <body>
-    <div class="preloader">
-      <div class="loader-circle">
-        <div class="loader-line-mask"><div class="loader-line"></div></div>
-        <div class="content">N</div>
-      </div>
-    </div>
-    <div class="offcanvas-overlay"></div>
-    <div id="mobile_menu" class="offcanvas-panel">
-      <div class="panel">
-        <div
-          class="offcanvas-header d-flex align-items-center justify-content-between"
-        >
-          <div class="d-flex align-items-center">
-            <p style="color: #fff;">NexHub</p>
-          </div>
-          <div class="offcanvas-close">
-            <img src="assets/img/icons/close.svg" class="svg" alt="" />
+<html lang="en">
+
+<!-- Mirrored from seoc-html-v2.vercel.app/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 20 Sep 2025 20:28:10 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>nexHub</title>
+
+     <!--=====FAB ICON=======-->
+    <link rel="shortcut icon" href="assets/img/logo/fav-logo1.png" type="image/x-icon">
+
+    <!--===== CSS LINK =======-->
+    <link rel="stylesheet" href="assets/css/plugins/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/plugins/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/plugins/mobile.css">
+    <link rel="stylesheet" href="assets/css/plugins/owlcarousel.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/sidebar.css">
+    <link rel="stylesheet" href="assets/css/plugins/slick-slider.css">
+    <link rel="stylesheet" href="assets/css/plugins/nice-select.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <!--=====  JS SCRIPT LINK =======-->
+    <script src="assets/js/plugins/jquery-3-6-0.min.js"></script>
+</head>
+<body class="homepage1-body">
+
+<!--===== PRELOADER STARTS =======-->
+<div class="preloader">
+  <div class="loading-container">
+    <div class="loading"></div>
+    <div id="loading-icon"><img src="assets/img/logo/preloader.png" alt=""></div>
+  </div>
+</div>
+<!--===== PRELOADER ENDS =======-->
+
+<!--===== PROGRESS STARTS=======-->
+<div class="paginacontainer">
+     <div class="progress-wrap">
+       <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+         <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+       </svg>
+     </div>
+   </div>
+ <!--===== PROGRESS ENDS=======-->
+
+   <!--=====HEADER START=======-->
+   <header>
+    <div class="header-area homepage1 header header-sticky d-none d-lg-block " id="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="header-elements">
+              <div class="site-logo">
+                <a href="index.html"><img src="assets/img/logo/nexhub-logo.png" alt=""></a>
+              </div>
+              <div class="main-menu">
+                <ul>
+                  <li><a href="index.html">Home</a>
+                  </li>
+                  <li><a href="#about-us">About</a></li>
+                  <li><a href="service1.html">Careers</a>
+                  </li>
+                  <li><a href="#contact">Contact Us</a></li>
+                </ul>
+              </div>
+              <div class="btn-area">
+                <div class="search-icon header__search header-search-btn">
+                  <a href="#"><img src="assets/img/icons/search-icons1.svg" alt=""></a>
+                </div>
+                <!-- <a href="contact.html" class="header-btn1">Free Consultation <span><i class="fa-solid fa-arrow-right"></i></span></a> -->
+              </div>
+
+              <div class="header-search-form-wrapper">
+                <div class="tx-search-close tx-close"><i class="fa-solid fa-xmark"></i></div>
+                <div class="header-search-container">
+                    <form role="search" class="search-form">
+                    <input type="search"  class="search-field" placeholder="Search …" value="" name="s">
+                    <button type="submit" class="search-submit"><img src="assets/img/icons/search-icons1.svg" alt=""></button>
+                    </form>
+                </div>
+            </div>
+            <div class="body-overlay"></div>
+            </div>
           </div>
         </div>
-        <div class="mobile-main-menu plugin">
-          <ul class="nav flex-column">
-            <li class="current-menu-parent">
-              <a href="index.html">Home</a>
-            </li>
-            <li>
-              <a href="about.html">About us</a>
-            </li>
-            <li>
-              <a href="job-grid.html">careers</a>
-            </li>
-            <li>
-              <a href="contact.html">Contact</a>
-            </li>
+      </div>
+    </div>
+  </header>
+  <!--=====HEADER END =======-->
+
+  <!--===== MOBILE HEADER STARTS =======-->
+ <div class="mobile-header mobile-haeder1 d-block d-lg-none">
+  <div class="container-fluid">
+    <div class="col-12">
+      <div class="mobile-header-elements">
+        <div class="mobile-logo">
+          <a href="index.html"><img src="assets/img/logo/logo1.png" alt=""></a>
+        </div>
+        <div class="mobile-nav-icon dots-menu">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="mobile-sidebar mobile-sidebar1">
+  <div class="logosicon-area">
+    <div class="logos">
+      <img src="assets/img/logo/logo1.png" alt="">
+    </div>
+    <div class="menu-close">
+      <i class="fa-solid fa-xmark"></i>
+    </div>
+   </div>
+  <div class="mobile-nav mobile-nav1">
+    <ul class="mobile-nav-list nav-list1">
+      <li><a href="index.html" >Home </a>
+      </li>
+      <li><a href="#about-us">About</a></li>
+      <li><a href="service1.html">Careers</a>
+      </li>
+      <li><a href="#contact">Contact Us</a></li>
+    </ul>
+
+    <div class="allmobilesection">
+      <a href="contact.html"  class="header-btn1">Get Started <span><i class="fa-solid fa-arrow-right"></i></span></a>
+      <div class="single-footer">
+        <h3>Contact Info</h3>
+        <div class="footer1-contact-info">
+          <div class="contact-info-single">
+            <div class="contact-info-icon">
+              <i class="fa-solid fa-phone-volume"></i>
+            </div>
+            <div class="contact-info-text">
+              <a href="tel:+3(924)4596512">+3(924)4596512</a>
+            </div>
+          </div>
+
+          <div class="contact-info-single">
+            <div class="contact-info-icon">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="contact-info-text">
+              <a href="mailto:info@example.com">info@example.com</a>
+            </div>
+          </div>
+
+          <div class="single-footer">
+            <h3>Our Location</h3>
+            
+            <div class="contact-info-single">
+              <div class="contact-info-icon">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div class="contact-info-text">
+                <a href="mailto:info@example.com" >55 East Birchwood Ave.Brooklyn, <br> New York 11201,United States</a>
+              </div>
+            </div>
+
+          </div>
+          <div class="single-footer">
+            <h3>Social Links</h3>
+            
+            <div class="social-links-mobile-menu">
+              <ul>
+                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+  </div>
+</div>
+<!--===== MOBILE HEADER STARTS =======-->
+
+<!--===== HERO AREA STARTS =======-->
+<div class="hero1-section-area" style="background-image: url(assets/img/bg/header-bg1.png);">
+  <img src="assets/img/elements/elements1.png" alt="" class="elements1 aniamtion-key-1">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <div class="header-main-content heading1">
+          <h5><img src="assets/img/icons/logo-icons.svg" alt="">Technology That Moves nexmin Forward</h5>
+          <h1 class="text-anime-style-3"><span style="text-transform: lowercase;">n</span>exHub Building the Technology That Powers <span style="text-transform: lowercase;">n</span>exmin</h1>
+          <p data-aos="fade-left" data-aos-duration="1000">From scalable cloud systems to AI-driven logistics, nexHub is the backbone of nexmin’s 24/7 delivery operations</p>
+          <div class="btn-area" data-aos="fade-left" data-aos-duration="1200">
+            <a href="contact.html" class="header-btn1">Read More <span><i class="fa-solid fa-arrow-right"></i></span></a>
+            <a href="contact.html" class="header-btn2">Contact Now <span><i class="fa-solid fa-arrow-right"></i></span></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="header-images-area">
+          <div class="main-images-area">
+            <div class="img1">
+              <img src="assets/img/all-images/man-with-laptop.png" alt="" data-aos="zoom-in" data-aos-duration="1000">
+            </div>
+            <div class="img2">
+              <img src="assets/img/bg/header-imgbg.png" alt="">
+            </div>
+            <div class="icons-area">
+              <img src="assets/img/icons/sound-icons1.svg" alt="" class="sound-icons1 aniamtion-key-1">
+              <img src="assets/img/icons/lite-icons1.svg" alt="" class="lite-icons1 aniamtion-key-1">
+            </div>
+            <div class="auhtor-icons">
+              <img src="assets/img/elements/elements2.png" alt="" class="elements2">
+              <img src="assets/img/elements/elements3.png" alt="" class="elements3">
+            </div>
+            <div class="auhtor-images">
+              <img src="assets/img/all-images/header-author-img1.png" alt="" class="header-author-img1 aniamtion-key-2">
+              <img src="assets/img/all-images/header-author-img2.png" alt="" class="header-author-img2 aniamtion-key-2">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--===== HERO AREA ENDS =======-->
+
+<!--===== TESTIMONIAL AREA STARTS =======-->
+<!--===== TESTIMONIAL AREA ENDS =======-->
+<div class="all-section-bg" style="background-image: url(assets/img/bg/pages-bg1.png); background-repeat: no-repeat; background-size: cover;">
+<!--===== ABOUT AREA STARTS =======-->
+<div class="about1-section-area sp6">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-4">
+        <div class="about-images">
+         <figure class="image-anime reveal">
+          <img src="assets/img/all-images/about-img1.png" alt="">
+         </figure>
+          <img src="assets/img/elements/star1.png" alt="" class="star1 keyframe5">
+        </div>
+      </div>
+      <div class="col-lg-5">
+        <div class="about-content-area heading2">
+          <div class="arrow-circle">
+          <a href="about.html">
+            <img src="assets/img/elements/elements4.png" alt="" class="elements4 keyframe5">
+            <img src="assets/img/icons/arrow.svg" alt="" class="arrow">
+          </a>
+          </div>
+          <h2 class="text-anime-style-3">Comprehensive SEO & Digital Marketing Solutions.</h2>
+          <p data-aos="fade-left" data-aos-duration="1000">Welcome to SEOC your trusted partner for comprehensive SEO and digital marketing solutions. With our proven expertise and innovative strategies the digital landscape.</p>
+          <div class="btn-area" data-aos="fade-left" data-aos-duration="1200">
+            <a href="about.html" class="header-btn1">Learn More<span><i class="fa-solid fa-arrow-right"></i></span></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="about-auhtor-images">
+          <img src="assets/img/elements/elements5.png" alt="" class="elements5 keyframe5">
+          <figure class="image-anime reveal">
+            <img src="assets/img/all-images/about-img2.png" alt="">
+           </figure>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--===== ABOUT AREA ENDS =======-->
+
+<!--===== SERVICE AREA STARTS =======-->
+<div class="service1-section-area sp9">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 m-auto">
+        <div class="service-header-area heading2 text-center">
+          <img src="assets/img/elements/star2.png" alt="" class="star2 keyframe5">
+          <img src="assets/img/elements/star2.png" alt="" class="star3 keyframe5">
+          <h2 class="text-anime-style-3">Explore the Features of nexmin</h2>
+          <p data-aos="fade-up" data-aos-duration="1000">Our expert team specializes in delivering tailored solutions designed to elevate <br class="d-md-block d-none"> your brand and drive measurable results. </p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="service-all-boxes-area">
+          <div class="service-boxarea" data-aos="zoom-in" data-aos-duration="800">
+            <a href="service1.html">24/7 Food & Grocery Delivery</a>
+            <div class="space40"></div>
+            <img src="assets/img/icons/service-icon1.svg" alt="">
+            <div class="space40"></div>
+            <p>Enhance your online visibility & drive organic traffic with our advanced SEO techniques. We optimize your website to rank higher.</p>
+          </div>
+
+          <div class="service-boxarea box2" data-aos="zoom-in" data-aos-duration="1000">
+            <a href="service1.html">Pay-Per-Click (PPC) Advertising</a>
+            <div class="space40"></div>
+            <img src="assets/img/icons/service-icon2.svg" alt="">
+            <div class="space40"></div>
+            <p>Reach your audience instantly and drive qualified leads with targeted PPC campaigns. Our experts craft compelling ad copy and optimize.</p>
+          </div>
+
+          <div class="service-boxarea box3" data-aos="zoom-in" data-aos-duration="1200">
+            <a href="service1.html">Social Media Marketing</a>
+            <div class="space66"></div>
+            <img src="assets/img/icons/service-icon3.svg" alt="">
+            <div class="space40"></div>
+            <p>Build a strong brand presence and engage with your audience on social media platforms. We create strategic social media campaigns to boost brand.</p>
+          </div>
+
+          <div class="service-boxarea box4" data-aos="zoom-in" data-aos-duration="1400">
+            <a href="service1.html">Website Design and Development</a>
+            <div class="space40"></div>
+            <img src="assets/img/icons/service-icon4.svg" alt="">
+            <div class="space40"></div>
+            <p>Make a lasting impression with a professionally designed and user-friendly website. Our web design and development services ensure website.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--===== SERVICE AREA ENDS =======-->
+
+<!--===== SERVICE AREA STARTS =======-->
+<div id="about-us" class="service2-section-area sp6">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 m-auto">
+        <div class="service2-header heading2 text-center">
+          <img src="assets/img/elements/star2.png" alt="" class="star2 keyframe5">
+          <img src="assets/img/elements/star2.png" alt="" class="star3 keyframe5">
+          <h2 class="text-anime-style-3">Who We Are ?</h2>
+          <p data-aos="fade-up" data-aos-duration="1000">nexHub is nexmin’s dedicated technology hub, established to design, develop, and maintain the digital ecosystem that drives a modern delivery platform. While nexmin focuses on business operations, partnerships, and customer growth, nexHub ensures that the technology behind the scenes is seamless, secure, and constantly innovating</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-7">
+        <div class="images-content-area" data-aos="zoom-in" data-aos-duration="1000">
+          <div class="img1">
+            <img src="assets/img/all-images/service-img1.png" alt="">
+          </div>
+          <div class="content-area">
+            <h5>Our Value</h5>
+            <a href="service1.html" class="text text-anime-style-3">Innovation, Integrity, Impact</a>
+            <p data-aos="fade-up" data-aos-duration="1000">We build with purpose—driven by innovation, guided by integrity, and focused on creating meaningful, sustainable impact through technology.</p>
+            <div class="btn-area" data-aos="fade-up" data-aos-duration="1200">
+              <a href="service1.html" class="header-btn1">Learn More <span><i class="fa-solid fa-arrow-right"></i></span>
+              </a>
+            </div>
+          </div>
+          <div class="arrow-area">
+            <a href="service1.html"><i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-5">
+        <div class="service-all-boxes">
+          <div class="row">
+            <div class="col-lg-12 col-md-6">
+              <div class="service2-auhtor-boxarea" data-aos="zoom-out" data-aos-duration="1000">
+                <div class="arrow">
+                  <a href="service1.html"><i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="content-area">
+                  <h5>Our Mission</h5>
+                  <a href="index.html">Powering Progress Through Intelligent Technology</a>
+                  <p>To provide the digital foundation that enables nexmin to operate smarter, faster, and more sustainably in the food and grocery delivery industry</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-12 col-md-6">
+              <div class="service2-auhtor2-boxarea" data-aos="zoom-out" data-aos-duration="1200">
+                <div class="arrow">
+                  <a href="service1.html"><i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="content-area">
+                  <h5>Our Vision</h5>
+                  <a href="index.html">Shaping the Future of Delivery Technology</a>
+                  <p>To redefine what’s possible in delivery technology by leveraging AI, automation, and sustainable cloud practices to create the most reliable platform in Europe.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--===== SERVICE AREA ENDS =======-->
+
+<!--===== CASE AREA STARTS =======-->
+<div class="case1-section-area">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 m-auto">
+        <div class="case-header-area heading2 text-center">
+          <img src="assets/img/elements/star2.png" alt="" class="star2 keyframe5">
+          <img src="assets/img/elements/star2.png" alt="" class="star3 keyframe5">
+          <h2 class="text-anime-style-3">Benefits of SEO & Digital Marketing</h2>
+          <p data-aos="fade-up" data-aos-duration="1000">By investing in strategic SEO and digital marketing initiatives, businesses can <br class="d-md-block d-none"> unlock a myriad of benefits.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12" data-aos="zoom-out" data-aos-duration="1200">
+          <div class="cs_case_study_1_list">
+            <div class="cs_case_study cs_style_1 cs_hover_active active" data-aos="fade-up" data-aos-duration="800">
+              <a href="case-single.html" class="cs_case_study_thumb cs_bg_filed" data-src="assets/img/all-images/case-img1.png"></a>
+              <div class="content-area1">
+                <a href="case-single.html">Website  Design & Development</a>
+              </div>
+              <div class="content-area">
+                <a href="case-single.html">Website  Design & Development </a>
+                <p>We understand the critical role that a well-designed and user-friendly website plays in shaping your online presence driving.</p>
+              </div>
+            </div>
+            <div class="cs_case_study cs_style_1 cs_hover_active" data-aos="fade-up" data-aos-duration="900">
+              <a href="case-single.html" class="cs_case_study_thumb cs_case_study_thumb2 cs_bg_filed" data-src="assets/img/all-images/case-img2.png"></a>
+              <div class="content-area1">
+                <a href="case-single.html">SEO</a>
+              </div>
+              <div class="content-area">
+                <a href="case-single.html">SEO</a>
+                <p>We understand the critical role that a well-designed and user-friendly website plays in shaping your online presence driving.</p>
+              </div>
+            </div>
+            <div class="cs_case_study cs_style_1 cs_hover_active" data-aos="fade-up" data-aos-duration="1000">
+              <a href="case-single.html" class="cs_case_study_thumb cs_case_study_thumb3 cs_bg_filed" data-src="assets/img/all-images/case-img3.png"></a>
+              <div class="content-area1">
+                <a href="case-single.html">PPC Advertising</a>
+              </div>
+              <div class="content-area">
+                <a href="case-single.html">PPC Advertising</a>
+                <p>We understand the critical role that a well-designed and user-friendly website plays in shaping your online presence driving.</p>
+              </div>
+            </div>
+            <div class="cs_case_study cs_style_1 cs_hover_active" data-aos="fade-up" data-aos-duration="1100">
+              <a href="case-single.html" class="cs_case_study_thumb cs_case_study_thumb4 cs_bg_filed" data-src="assets/img/all-images/case-img4.png"></a>
+              <div class="content-area1">
+                <a href="case-single.html">Social Media Marketing</a>
+              </div>
+              <div class="content-area">
+                <a href="case-single.html">Social Media Marketing</a>
+                <p>We understand the critical role that a well-designed and user-friendly website plays in shaping your online presence driving.</p>
+              </div>
+            </div>
+            <div class="cs_case_study cs_style_1 cs_hover_active" data-aos="fade-up" data-aos-duration="1200">
+              <a href="case-single.html" class="cs_case_study_thumb cs_case_study_thumb5 cs_bg_filed" data-src="assets/img/all-images/case-img5.png"></a>
+              <div class="content-area1">
+                <a href="case-single.html">Content Marketing</a>
+              </div>
+              <div class="content-area">
+                <a href="case-single.html">Content Marketing</a>
+                <p>We understand the critical role that a well-designed and user-friendly website plays in shaping your online presence driving.</p>
+              </div>
+            </div>
+            <div class="cs_case_study cs_style_1 cs_hover_active" data-aos="fade-up" data-aos-duration="1300">
+              <a href="case-single.html" class="cs_case_study_thumb cs_case_study_thumb6 cs_bg_filed" data-src="assets/img/all-images/case-img6.png"></a>
+              <div class="content-area1">
+                <a href="case-single.html">Email Marketing</a>
+              </div>
+              <div class="content-area">
+                <a href="case-single.html">Email Marketing</a>
+                <p>We understand the critical role that a well-designed and user-friendly website plays in shaping your online presence driving.</p>
+              </div>
+            </div>
+            <div class="cs_case_study cs_style_1 cs_hover_active " style="margin: 0 !important;" data-aos="fade-up" data-aos-duration="1400">
+              <a href="case-single.html" class="cs_case_study_thumb cs_case_study_thumb7 cs_bg_filed" data-src="assets/img/all-images/case-img7.png"></a>
+              <div class="content-area1">
+                <a href="case-single.html">Analytics & Reporting</a>
+              </div>
+              <div class="content-area">
+                <a href="case-single.html">Analytics & Reporting</a>
+                <p>We understand the critical role that a well-designed and user-friendly website plays in shaping your online presence driving.</p>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--===== CASE AREA ENDS =======-->
+<!--===== CONTACT AREA STARTS =======-->
+<div id="contact" class="contact1-section-area sp6">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 m-auto">
+        <div class="contact-header-area text-center heading2">
+          <img src="assets/img/elements/star2.png" alt="" class="star2 keyframe5">
+          <img src="assets/img/elements/star2.png" alt="" class="star3 keyframe5">
+          <h2 class="text-anime-style-3">Get In Touch With Us Today</h2>
+          <p>Have questions? Reach out by filling out the contact form</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-5" data-aos="zoom-out" data-aos-duration="1000">
+        <div class="contact-info-area">
+          <h3>Contact Info</h3>
+          <p>We're here to help! If you have any questions or would like to discuss how our SEO and digital marketing services can benefit your business,</p>
+          <div class="space32"></div>
+          <div class="contact-auhtor-box">
+            <div class="icons">
+              <img src="assets/img/icons/location2.svg" alt="">
+            </div>
+            <div class="content">
+              <h4>Our Location</h4>
+              <a href="#">8708 Technology Forest Pl Suite <br class="d-lg-block d-none"> 125 -G, The Woodlands, TX 773</a>
+            </div>
+          </div>
+          <div class="space40"></div>
+          <div class="contact-auhtor-box">
+            <div class="icons">
+              <img src="assets/img/icons/phone2.svg" alt="">
+            </div>
+            <div class="content">
+              <h4>Phone Number</h4>
+              <a href="tel:123-456-7890">123-456-7890 <br>
+                123-456-7890</a>
+            </div>
+          </div>
+          <div class="space40"></div>
+          <div class="contact-auhtor-box">
+            <div class="icons">
+              <img src="assets/img/icons/email2.svg" alt="">
+            </div>
+            <div class="content">
+              <h4>Email Address</h4>
+              <a href="mailto:infoseoc@.gmail.com">
+                nexhubuk@gmail.com</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-7" data-aos="zoom-out" data-aos-duration="1200">
+        <div class="contact-boxarea">
+           <h3>Get In Touch</h3>
+           <p></p>
+           <form action="https://api.web3forms.com/submit" method="POST">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="input-area">
+                  <input type="text" placeholder="First Name" required>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="input-area">
+                  <input type="text" placeholder="Last Name" required>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="input-area">
+                  <input type="email" placeholder="Email Address" required>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="input-area">
+                  <input type="number" placeholder="Phone Number" required>
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <div class="input-area">
+                  <input type="text" placeholder="Subject" required>
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <div class="input-area">
+                  <textarea placeholder="Your Message" required></textarea>
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <div class="input-area">
+                  <button class="header-btn1">Send Message <span><i class="fa-solid fa-arrow-right"></i></span></button>
+                </div>
+              </div>
+             </div>
+           </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--===== CONTACT AREA ENDS =======-->
+
+<!--===== CTA AREA STARTS =======-->
+<div class="cta-section-area">
+  <img src="assets/img/bg/cta-bg1.png" alt="" class="cta-bg1 aniamtion-key-2">
+  <img src="assets/img/bg/cta-bg2.png" alt="" class="cta-bg2 aniamtion-key-1">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 m-auto">  
+        <div class="cta-header-area text-center sp4 heading2">
+          <h2 class="text-anime-style-3">Ready To Take Your SEO To <br class="d-md-block d-none"> The Next Level</h2>
+          <p data-aos="fade-up" data-aos-duration="1000">Effective SEO strategies not only elevate a website's visibility but also drive <br class="d-md-block d-none"> targeted traffic, enhance user experience,</p>
+          <div class="btn-area text-center" data-aos="fade-up" data-aos-duration="1200">
+            <a href="contact.html" class="header-btn1">Free Consultation <span><i class="fa-solid fa-arrow-right"></i></span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--===== CTA AREA ENDS =======-->
+
+<!--===== FOOTER AREA STARTS =======-->
+<div class="footer1-section-area">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-md-6">
+        <div class="footer-logo-area">
+          <img src="assets/img/logo/nexhub-logo.png" alt="">
+          <p>At nexHub, we build, manage, and scale the technology behind nexmin the next-gen delivery platform redefining convenience and speed</p>
+          <ul>
+            <li><a href="#"><img src="assets/img/icons/facebook.svg" alt=""></a></li>
+            <li><a href="#"><img src="assets/img/icons/instagram.svg" alt=""></a></li>
+            <li><a href="#"><img src="assets/img/icons/linkedin.svg" alt=""></a></li>
+            <li><a href="#"><img src="assets/img/icons/youtube.svg" alt=""></a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-lg-2 col-md-6">
+        <div class="footer-logo-area1">
+          <h3>About Link</h3>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="service1.html">Careers</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6">
+        <div class="footer-logo-area2">
+          <h3>Get in touch</h3>
+          <ul>
+            <li><a href="404-4.html"><img src="assets/img/icons/email.svg" alt=""><span>nexhubuk@gmail.com</span></a></li>
+            <li><a href="#"><img src="assets/img/icons/location.svg" alt=""><span>8708 Technology Forest <br class="d-lg-block d-none"> Pl Suite 125 -G, The <br class="d-lg-block d-none"> Woodlands, TX 773</span></a></li>
+            <li><a href="tel:123-456-7890"><img src="assets/img/icons/phone.svg" alt=""><span>123-456-7890</span></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="footer-logo-area3">
+          <h3>Subscribe Our Newsletter</h3>
+          <form action="#">
+            <input type="text" placeholder="Enter Your email">
+            <button class="header-btn1"> Subscribe <span><i class="fa-solid fa-arrow-right"></i></span></button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="space80 d-lg-block d-none"></div>
+    <div class="space40 d-lg-none d-block"></div>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="copyright-area">
+          <div class="pera">
+            <p>ⓒCopyright 2025 nexHub . All rights reserved</p>
+          </div>
+          <ul>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#" class="m-0"> Privacy Policy </a></li>
           </ul>
         </div>
       </div>
     </div>
-    <header class="header fixed-top">
-      <div class="header-main love-sticky plugin">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-lg-2 col-sm-4 col-8">
-              <div class="logo">
-                <a href="index.html">
-                  <img
-                    class="default-logo"
-                    src="assets/img/main-logo.png"
-                    data-rjs="2"
-                    alt=""
-                  />
-                  <img
-                    class="sticky-logo"
-                    src="assets/img/main-logo.png"
-                    data-rjs="2"
-                    alt=""
-                  />
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-10 col-sm-8 col-4">
-              <div id="menu-button" class="d-lg-none d-inline-block">
-                <span></span>
-              </div>
-              <div
-                class="menu-wrapper d-none d-lg-flex justify-content-end align-items-center"
-              >
-                <div
-                  class="main-menu d-flex align-items-center justify-content-end"
-                >
-                  <ul class="nav align-items-center">
-                    <li class="current-menu-parent">
-                      <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                      <li><a href="about.html">About us</a></li>
-                    </li>
-                    <li>
-                      <a href="job-grid.html">Careers</a>
-                    </li>
-                  </ul>
-                </div>
-                <div class="header-btn book">
-                  <a href="contact.html" class="btn-crs plug">Let's Talk</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
-    <section
-      class="banner style--two plugins"
-      data-bg-img="assets/img/banner/plugin-banner-bg.jpg"
-    >
-      <img
-        src="assets/img/banner/plug-banner-shape.svg"
-        alt=""
-        class="svg plug-banner-shape"
-      />
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-5 col-md-12 order-1 order-lg-0">
-            <div class="banner-content">
-              <div class="content text-white">
-                <h2>
-                  <span style="text-transform: lowercase;">n</span>exHub Building the Technology </br> That Powers <span style="text-transform: lowercase;">n</span>exmin
-                </h2>
-                <p>
-                  From scalable cloud systems to AI-driven logistics, nexHub is the backbone of nexmin’s 24/7 delivery operations
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-7 col-md-12 order-0 order-lg-1">
-            <div class="banner-img text-right">
-              <img
-                src="assets/img/banner/main_banner.png"
-                class="b-thumb"
-                data-rjs="2"
-                alt=""
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="pt-140 pb-110">
-      <div class="container">
-      </div>
-    </section>
-    <section class="pb-140 position-relative">
-      <div
-        class="plugin-feature-bg wow fadeInLeftBig"
-        data-wow-duration="1.5s"
-      ></div>
-      <div class="container">
-        <div class="row align-items-center justify-content-lg-between">
-          <div class="col-lg-6 col-md-12">
-            <div class="feature-img plug text-center">
-              <img
-                src="assets/img/feature/engineering1.gif"
-                data-rjs="2"
-                class="wow fadeInUp"
-                data-wow-duration="1.5s"
-                data-wow-delay="1s"
-                alt=""
-              />
-            </div>
-          </div>
-          <div class="col-lg-5 col-md-12">
-            <div class="feature-content plug">
-              <div class="section-title">
-                <h2 class="black">Why <span style="text-transform: lowercase;">n</span>exHub?</h2>
-              </div>
-              <ul class="list-check cards">
-                <li>
-                  <h3>Europe & UK Market Expertise</h3>
-                  <p>
-                    We know the market, regulations, and user expectations ensuring your app is compliant, localized, and competitive
-                  </p>
-                </li>
-                <li>
-                  <h3>Fast Launch, Future-Proof Tech</h3>
-                  <p>
-                    Get to market quickly with scalable, modular technology that grows with your business.
-                  </p>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="pb-140 position-relative">
-      <div
-        class="plugin-feature-bg2 wow fadeInRightBig"
-        data-wow-duration="1.5s"
-        data-bg-img="assets/img/feature/plug-f2bg.jpg"
-      ></div>
-      <div class="container">
-        <div class="row align-items-center justify-content-lg-between">
-          <div class="col-lg-5 col-md-12 order-1 order-lg-0">
-            <div class="feature-content plug">
-              <div class="section-title">
-                <h2 class="black">We build web and mobile platform tailored for</h2>
-              </div>
-              <ul class="list-check cards">
-                <li>
-                  <h3>Food Delivery Services</h3>
-                  <p>
-                    Smart and scalable platforms for restaurants to manage orders, track deliveries, and offer a smooth customer experience
-                  </p>
-                </li>
-                <li>
-                  <h3>Grocery Delivery Platforms</h3>
-                  <p>
-                    Digital solutions for grocery stores to handle online orders, manage inventory, and enable fast doorstep delivery
-                  </p>
-                </li>
-                <li>
-                  <h3>Convenience & Local Store Deliveries</h3>
-                  <p>
-                    Easy-to-use platforms that help local shops offer quick delivery services and reach more nearby customers.
-                  </p>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-12 order-0 order-lg-1">
-            <div class="feature-img plug text-center">
-              <img
-                src="assets/img/feature/engineering.gif"
-                data-rjs="2"
-                class="wow fadeInUp"
-                data-wow-delay="1s"
-                data-wow-duration="1.5s"
-                alt=""
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="pt-140 pb-140 plug-cta position-relative">
-      <img src="assets/img/feature/cta-line.png" class="cta-line1" alt="" />
-      <img src="assets/img/feature/cta-line2.png" class="cta-line2" alt="" />
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-12">
-            <div class="cta-content text-white text-center">
-              <h2>
-                Inside <span style="text-transform: lowercase;">n</span>exmin,<br />
-                Powered by <span style="text-transform: lowercase;">n</span>exHub
-              </h2>
-              <div class="cta-btn-group">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/mqTUA9ctj-o?si=LcYpPiV_N4daPH11" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="pb-140 pt-140">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 text-center">
-            <div class="section-title host">
-              <h2 class="black">Explore the Features of <span style="text-transform: lowercase;">n</span>exMin</h2>
-            </div>
-          </div>
-        </div>
-        <div
-          class="feature-wrap plug"
-          data-bg-img="assets/img/banner/dpf-bg.png"
-        >
-          <div class="row justify-content-between">
-            <div class="col-lg-4 col-md-6 col-sm-12">
-              <div class="single-service style--three plug text-center">
-                <div class="service-icon">
-                  <img src="assets/img/service/online_order.svg" class="svg" alt="" />
-                </div>
-                <div class="service-content">
-                  <a href="#"><h3>AI Powered Order Management</h3></a>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-              <div class="single-service style--three plug text-center">
-                <div class="service-icon">
-                  <img src="assets/img/service/real_track.svg" class="svg" alt="" />
-                </div>
-                <div class="service-content">
-                  <a href="#"><h3>Real-Time Tracking</h3></a>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-              <div class="single-service style--three plug text-center">
-                <div class="service-icon">
-                  <img src="assets/img/service/cust_supp.svg" class="svg" alt="" />
-                </div>
-                <div class="service-content">
-                  <a href="#"><h3>Customer Support</h3></a>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-              <div class="single-service style--three plug text-center">
-                <div class="service-icon">
-                  <img src="assets/img/service/fd_delivery.svg" class="svg" alt="" />
-                </div>
-                <div class="service-content">
-                  <a href="#"><h3>Smart Delivery Dispatching</h3></a>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-              <div class="single-service style--three plug text-center">
-                <div class="service-icon">
-                  <img src="assets/img/service/pf5.svg" class="svg" alt="" />
-                </div>
-                <div class="service-content">
-                  <a href="#"><h3>Payment Flexibility</h3></a>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-              <div class="single-service style--three plug text-center">
-                <div class="service-icon">
-                  <img src="assets/img/service/pf6.svg" class="svg" alt="" />
-                </div>
-                <div class="service-content">
-                  <a href="#"><h3>Guest Checkout</h3></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <footer
-      class="footer plugin-footer text-white"
-      data-bg-img="assets/img/banner/footer-bg.jpg"
-    >
-      <img
-        src="assets/img/banner/footer-shape.svg"
-        alt=""
-        class="svg footer-shape"
-      />
-      <div class="footer-main">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-4 col-md-5 col-sm-10 col-12">
-              <div class="widget widget_text">
-                <h2><span style="text-transform: lowercase;">n</span>exHub</h2>
-                <p>
-                  At nexHub, we build, manage, and scale the technology behind nexmin the next-gen delivery platform redefining convenience and speed
-                </p>
-              </div>
-            </div>
-            <div class="col-lg-2 col-md-5 col-sm-10 col-12">
-              <div class="widget widget_footer_menu">
-                <div class="widget_title"><h3>Company</h3></div>
-                <div class="footer_menu plug">
-                  <ul>
-                    <li><a href="about.html">about us</a></li>
-                    <li><a href="contact.html">contact us</a></li>
-                    <li><a href="job-grid.html">careers</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-5 col-sm-10 col-12">
-              <div class="widget widget_newsletter">
-                <div class="widget_title"><h3>Subscribe Newsletter</h3></div>
-                <p>
-                  Get the latest on what we’re building at nexHub  
-                </p>
-                <form
-                  action="#"
-                  class="newslatter-form"
-                >
-                  <div class="theme-input-group pay plug">
-                    <input
-                      class="theme-input-style"
-                      type="email"
-                      placeholder="Enter your email"
-                    />
-                    <button type="submit" class="btn submit-btn">
-                      Subscribe
-                    </button>
-                  </div>
-                </form>
-              </div>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-10 col-12">
-              <div class="widget widget_text">
-                  <p>Copyrights nexHub © 2025. All rights reserved.</p>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-10 col-12 social-icon plug">
-              <div class="widget widget_newsletter">
-                <a href="https://www.facebook.com/profile.php?id=61576753712133" target="_blank"><i class="fa fa-facebook"></i></a>
-                <a href="https://x.com/nexmin_limited" target="_blank"><i class="fa fa-twitter"></i></a>
-                <a href="https://www.instagram.com/nexmin_limited/" target="_blank"
-                  ><i class="fa fa-instagram"></i
-                ></a>
-                <a href="https://www.linkedin.com/company/nexmin-limited" target="_blank"><i class="fa fa-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-          
-         
-        </div>
-      </div>
-    </footer>
-    <a href="#" class="back-to-top plug"> <i class="fa fa-angle-up"></i> </a>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/plugins/owlcarousel/owl.carousel.min.js"></script>
-    <script src="assets/plugins/retinajs/retina.min.js"></script>
-    <script src="assets/plugins/countdown-timer/countdown.min.js"></script>
-    <script src="assets/plugins/ui-slider/jquery-ui.js"></script>
-    <script src="assets/plugins/animate/wow.min.js"></script>
-    <script src="assets/plugins/swiper-slider/swiper.min.js"></script>
-    <script src="assets/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjkssBA3hMeFtClgslO2clWFR6bRraGz0"></script>
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/custom.js"></script>
-  </body>
+  </div>
+</div>
+<!--===== FOOTER AREA ENDS =======-->
+</div>
+
+<!--===== JS SCRIPT LINK =======-->
+<script src="assets/js/plugins/bootstrap.min.js"></script>
+<script src="assets/js/plugins/fontawesome.js"></script>
+<script src="assets/js/plugins/aos.js"></script>
+<script src="assets/js/plugins/counter.js"></script>
+<script src="assets/js/plugins/gsap.min.js"></script>
+<script src="assets/js/plugins/ScrollTrigger.min.js"></script>
+<script src="assets/js/plugins/Splitetext.js"></script>
+<script src="assets/js/plugins/sidebar.js"></script>
+<script src="assets/js/plugins/magnific-popup.js"></script>
+<script src="assets/js/plugins/mobilemenu.js"></script>
+<script src="assets/js/plugins/owlcarousel.min.js"></script>
+<script src="assets/js/plugins/gsap-animation.js"></script>
+<script src="assets/js/plugins/nice-select.js"></script>
+<script src="assets/js/plugins/waypoints.js"></script>
+<script src="assets/js/plugins/slick-slider.js"></script>
+<script src="assets/js/plugins/circle-progress.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+
+<!-- Mirrored from seoc-html-v2.vercel.app/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 20 Sep 2025 20:30:47 GMT -->
 </html>
