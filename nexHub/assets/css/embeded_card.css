@@ -1,0 +1,39 @@
+
+  .embed-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 24px;
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .embed-card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+
+  iframe, blockquote {
+    width: 100%;
+    border: none;
+  }
+
+  .embed-card iframe {
+    border-radius: 8px;
+  }
+
+  /* Optional: TikTok/Instagram specific tweaks */
+  .tiktok-embed, .instagram-media {
+    width: 100% !important;
+  }
+
+  /* Ensures embeds don't overflow */
+  .embed-card > * {
+    max-width: 100%;
+  }
+
+  h2 {
+    text-align: center;
+    margin-bottom: 32px;
+  }

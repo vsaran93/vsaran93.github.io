@@ -6461,8 +6461,7 @@ Location:
   }
 }
 .hero1-section-area .header-images-area .main-images-area .img1 img {
-  height: 672.01px;
-  width: 486.95px;
+  margin-top: 20px;
   -o-object-fit: cover;
      object-fit: cover;
 }
