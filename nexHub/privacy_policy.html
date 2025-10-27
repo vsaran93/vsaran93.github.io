@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>nexHub</title>
+
+     <!--=====FAB ICON=======-->
+    <link rel="shortcut icon" href="assets/img/logo/favicon_nexhub.png" type="image/x-icon">
+
+    <!--===== CSS LINK =======-->
+    <link rel="stylesheet" href="assets/css/plugins/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/plugins/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/plugins/mobile.css">
+    <link rel="stylesheet" href="assets/css/plugins/owlcarousel.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/sidebar.css">
+    <link rel="stylesheet" href="assets/css/plugins/slick-slider.css">
+    <link rel="stylesheet" href="assets/css/plugins/nice-select.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/embeded_card.css">
+
+    <!--=====  JS SCRIPT LINK =======-->
+    <script src="assets/js/plugins/jquery-3-6-0.min.js"></script>
+</head>
+<style>
+    .content ul {
+        list-style: none;
+        padding: 0;
+        display: grid;
+        gap: 10px;
+    }
+
+    .content li {
+        background: #f8f9fa;
+        border: 1px solid #ddd;
+        border-radius: 6px;
+        padding: 12px 16px;
+        transition: background 0.2s ease;
+    }
+
+    .content-list ul {
+        list-style: none;
+        padding-left: 15px;
+        margin: 0;
+    }
+
+    .content-list li {
+        position: relative;
+        padding-left: 18px; 
+    }
+
+    .content-list li::before {
+        content: "•";
+        position: absolute;
+        left: 0;
+        color: #333;
+        font-size: 1.2em;
+        line-height: 1;
+    }   
+</style>
+<body class="homepage1-body">
+
+<!--===== PRELOADER STARTS =======-->
+<div class="preloader">
+  <div class="loading-container">
+    <div class="loading"></div>
+    <div id="loading-icon"><img src="assets/img/logo/favicon_nexhub.png" alt=""></div>
+  </div>
+</div>
+<!--===== PRELOADER ENDS =======-->
+
+<!--===== PROGRESS STARTS=======-->
+<div class="paginacontainer">
+     <div class="progress-wrap">
+       <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+         <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+       </svg>
+     </div>
+   </div>
+ <!--===== PROGRESS ENDS=======-->
+
+   <!--=====HEADER START=======-->
+   <header>
+    <div class="header-area homepage1 header header-sticky d-none d-lg-block " id="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="header-elements">
+              <div class="site-logo">
+                <a href="index.html"><img src="assets/img/logo/nexhub_logo.png" alt=""></a>
+              </div>
+              <div class="main-menu">
+                <ul>
+                  <li><a href="index.html">Home</a>
+                  </li>
+                  <li><a href="#about-us">About</a></li>
+                  <li><a href="career.html">Careers</a>
+                  </li>
+                  <li><a href="#contact">Contact Us</a></li>
+                </ul>
+              </div>
+              <div class="btn-area">
+                <div class="search-icon header__search header-search-btn">
+                  <a href="#"><img src="assets/img/icons/search-icons1.svg" alt=""></a>
+                </div>
+              </div>
+
+              <div class="header-search-form-wrapper">
+                <div class="tx-search-close tx-close"><i class="fa-solid fa-xmark"></i></div>
+                <div class="header-search-container">
+                    <form role="search" class="search-form">
+                    <input type="search"  class="search-field" placeholder="Search …" value="" name="s">
+                    <button type="submit" class="search-submit"><img src="assets/img/icons/search-icons1.svg" alt=""></button>
+                    </form>
+                </div>
+            </div>
+            <div class="body-overlay"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--=====HEADER END =======-->
+
+  <!--===== MOBILE HEADER STARTS =======-->
+ <div class="mobile-header mobile-haeder1 d-block d-lg-none">
+  <div class="container-fluid">
+    <div class="col-12">
+      <div class="mobile-header-elements">
+        <div class="mobile-logo">
+          <a href="index.html"><img src="assets/img/logo/nexhub_logo.png" alt=""></a>
+        </div>
+        <div class="mobile-nav-icon dots-menu">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="mobile-sidebar mobile-sidebar1">
+  <div class="logosicon-area">
+    <div class="logos">
+      <img src="assets/img/logo/nexhub_logo.png" alt="">
+    </div>
+    <div class="menu-close">
+      <i class="fa-solid fa-xmark"></i>
+    </div>
+   </div>
+  <div class="mobile-nav mobile-nav1">
+    <ul class="mobile-nav-list nav-list1">
+      <li><a href="index.html" >Home </a>
+      </li>
+      <li><a href="about-us">About</a></li>
+      <li><a href="career.html">Careers</a>
+      </li>
+      <li><a href="contact">Contact Us</a></li>
+    </ul>
+
+    <div class="allmobilesection">
+      <a href="contact.html"  class="header-btn1">Get Started <span><i class="fa-solid fa-arrow-right"></i></span></a>
+      <div class="single-footer">
+        <h3>Contact Info</h3>
+        <div class="footer1-contact-info">
+          <div class="contact-info-single">
+            <div class="contact-info-icon">
+              <i class="fa-solid fa-phone-volume"></i>
+            </div>
+            <div class="contact-info-text">
+              <a href="tel:+3(924)4596512">(+44)-926-000000</a>
+            </div>
+          </div>
+
+          <div class="contact-info-single">
+            <div class="contact-info-icon">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="contact-info-text">
+              <a href="mailto:info@example.com">nexhubuk@gmail.com</a>
+            </div>
+          </div>
+
+          <div class="single-footer">
+            <h3>Our Location</h3>
+            
+            <div class="contact-info-single">
+              <div class="contact-info-icon">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div class="contact-info-text">
+                <a href="mailto:info@example.com" >5 St Thomas Road <br> Belvedere, England, DA17 6AG</a>
+              </div>
+            </div>
+
+          </div>
+          <div class="single-footer">
+            <h3>Social Links</h3>
+            
+            <div class="social-links-mobile-menu">
+              <ul>
+                <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="https://www.instagram.com/nexmin_limited/"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://www.tiktok.com/@nexmin?refer=embed"><i class="fa-brands fa-tiktok"></i></a></li>
+                <li><a href="https://www.youtube.com/embed/mqTUA9ctj-o?si=YPs2VL1Ty8dx7ZDZ"><i class="fa-brands fa-youtube"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+  </div>
+</div>
+<!--===== MOBILE HEADER STARTS =======-->
+
+<!--===== HERO AREA STARTS =======-->
+<div class="all-section-bg" style="background-repeat: no-repeat; background-size: cover;">
+<div class="about1-section-area sp6">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-12">
+            <div class="content">
+              <h3 style="color: #292929; margin-bottom: 20px; margin-top: 20px"><span style="text-transform: lowercase;">n</span>exHub.<span style="text-transform: lowercase;">u</span>k customer privacy notice</h3>
+              <p>
+              This privacy notice tells you what to expect us to do with your personal information.
+              <ul>
+                <li><a href="#contact-details">Contact details</a></li>
+                <li><a href="#what-info-we-collect">What information we collect, use, and why</a></li>
+                <li><a href="#lawful-bases">Lawful bases and data protection rights</a></li>
+                <li><a href="#where-we-get-info">Where we get personal information from</a></li>
+                <li><a href="#how-long-keep-info">How long we keep information</a></li>
+                <li><a href="#how-to-complain">How to complain</a></li>
+              </ul>
+              </p>
+            </div>
+            <div class="about-content" id="contact-details">
+                <h3 style="color: #292929; margin-bottom: 20px; margin-top: 20px">Contact details</h3>
+                <p style="margin-bottom: 20px;">Email: nexhubuk@gmail.com</p>
+            </div>
+            <div class="content-list" id="what-info-we-collect">
+                <h3 style="color: #292929; margin-bottom: 20px; margin-top: 20px">What information we collect, use, and why</h3>
+                <p data-aos="fade-up" data-aos-duration="1000">We collect or use the following information for the operation of customer
+                accounts and guarantees:</p>
+                <ul>
+                    <li>Names and contact details</li>
+                    <li>Marketing preferences</li>
+                </ul>
+                <p>We collect or use the following information for service updates or
+                marketing purposes:</p>
+                <ul>
+                    <li>Names and contact details</li>
+                    <li>Marketing preferences</li>
+                    <li>Records of consent, where appropriate</li>
+                </ul>
+                <p>We collect or use the following information to comply with legal
+                requirements:</p>
+                <ul>
+                    <li>Name</li>
+                    <li>Contact information</li>
+                </ul>
+                <p>We collect or use the following information for recruitment purposes:</p>
+                <ul>
+                    <li>Contact details (eg name, address, telephone number or personal email
+                    address)</li>
+                    <li>Date of birth</li>
+                    <li>National Insurance number</li>
+                    <li>Copies of passports or other photo ID</li>
+                    <li>Employment history (eg job application, employment references or
+                    secondary employment)</li>
+                    <li>Education history (eg qualifications)</li>
+                    <li>Right to work information</li>
+                    <li>Security clearance details (eg basic checks and higher security
+                    clearance)</li>
+                </ul>
+                <p>We collect or use the following personal information for dealing with
+                queries, complaints or claims:</p>
+                <ul>
+                    <li>Names and contact details</li>
+                    <li>Purchase or service history</li>
+                </ul>
+            </div>
+            <div class="content-list" id="lawful-bases">
+                <h3 style="color: #292929; margin-bottom: 20px">Lawful bases and data protection rights</h3>
+                <p>Under UK data protection law, we must have a “lawful basis” for
+                collecting and using your personal information. There is a list of possible
+                lawful bases in the UK GDPR. You can find out more about lawful bases
+                on the ICO’s website.</p>
+                <p>Which lawful basis we rely on may affect your data protection rights
+                which are set out in brief below. You can find out more about your data
+                protection rights and the exemptions which may apply on the ICO’s
+                website:</p>
+                <ul>
+                    <li>
+                        <p>Your right of access - You have the right to ask us for copies of
+                        your personal information. You can request other information such
+                        as details about where we get personal information from and who
+                        we share personal information with. There are some exemptions
+                        which means you may not receive all the information you ask for.
+                       
+                        <a href="https://ico.org.uk/for-organisations/advice-for-small-organisations/privacy-notices-and-cookies/create-your-own-privacy-notice/your-data-protection-rights/#roa">
+                        Read more about the right of access.
+                        </a>
+                        </p>
+                    </li>
+                    <li>
+                        <p>Your right to rectification - You have the right to ask us to
+                        correct or delete personal information you think is inaccurate or
+                        incomplete.
+                        <a href="https://ico.org.uk/for-organisations/advice-for-small-organisations/privacy-notices-and-cookies/create-your-own-privacy-notice/your-data-protection-rights/#rtr">
+                            Read more about the right to rectification.
+                        </a>
+                        </p>
+                    </li>
+                    <li>
+                        <p>Your right to erasure - You have the right to ask us to delete your
+                        personal information.
+                        <a href="https://ico.org.uk/for-organisations/advice-for-small-organisations/privacy-notices-and-cookies/create-your-own-privacy-notice/your-data-protection-rights/#rte">
+                            Read more about the right to erasure.
+                        </a>
+                        </p>
+                    </li>
+                    <li>
+                        <p>Your right to restriction of processing - You have the right to
+                        ask us to limit how we can use your personal information.
+                        <a href="https://ico.org.uk/for-organisations/advice-for-small-organisations/privacy-notices-and-cookies/create-your-own-privacy-notice/your-data-protection-rights/#rtrop">
+                        Read more about the right to restriction of processing.
+                        </a>
+                        </p>
+                    </li>
+                    <li>
+                        <p>Your right to object to processing - You have the right to object
+                        to the processing of your personal data.
+                            <a href="https://ico.org.uk/for-organisations/advice-for-small-organisations/privacy-notices-and-cookies/create-your-own-privacy-notice/your-data-protection-rights/#rto">
+                                Read more about the right to object to processing.
+                            </a>
+                        </p>
+                    </li>
+                    <li>
+                        <p>Your right to data portability - You have the right to ask that we
+                        transfer the personal information you gave us to another organisation, or to you.
+                        <a href="https://ico.org.uk/for-organisations/advice-for-small-organisations/privacy-notices-and-cookies/create-your-own-privacy-notice/your-data-protection-rights/#rtdp">
+                            Read more about the right to data portability.
+                        </a>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                        Your right to withdraw consent – When we use consent as our
+                            lawful basis you have the right to withdraw your consent at any
+                            time.
+                            <a href="https://ico.org.uk/for-organisations/advice-for-small-organisations/privacy-notices-and-cookies/create-your-own-privacy-notice/your-data-protection-rights/#rtwc">Read more about the right to withdraw consent.</a> 
+                        </p>
+                    </li>
+                </ul>
+                <p>
+                If you make a request, we must respond to you without undue delay and in any event within one month.
+                To make a data protection rights request, please contact us using the
+                contact details at the top of this privacy notice.
+                </p>
+            </div>
+            <div class="content-list">
+                <h3 style="color: #292929; margin-bottom: 20px; margin-top:20px">Our lawful bases for the collection and use of your data</h3>
+                <p>Our lawful bases for collecting or using personal information for the
+                    operation of customer accounts and guarantees are:
+                    <ul>
+                        <li>Consent - we have permission from you after we gave you all the
+                        relevant information. All of your data protection rights may apply,
+                        except the right to object. To be clear, you do have the right to
+                        withdraw your consent at any time.</li>
+                    </ul>
+                </p>
+                <p>
+                Our lawful bases for collecting or using personal information for service
+                updates or marketing purposes are:
+                    <ul>
+                        <li>Consent - we have permission from you after we gave you all the
+                        relevant information. All of your data protection rights may apply,
+                        except the right to object. To be clear, you do have the right to
+                        withdraw your consent at any time.</li>
+                    </ul>
+                </p>
+                <p>
+                Our lawful bases for collecting or using personal information for legal
+                requirements are:
+                    <ul>
+                        <li>
+                            Consent - we have permission from you after we gave you all the
+                            relevant information. All of your data protection rights may apply,
+                            except the right to object. To be clear, you do have the right to
+                            withdraw your consent at any time.
+                        </li>
+                    </ul>
+                </p>
+                <p>
+                Our lawful bases for collecting or using personal information for recruitment
+                purposes are:
+                <ul>
+                    <li>
+                        Consent - we have permission from you after we gave you all the
+                        relevant information. All of your data protection rights may apply,
+                        except the right to object. To be clear, you do have the right to
+                        withdraw your consent at any time.
+                    </li>
+                </ul>
+                </p>
+                <p>
+                Our lawful bases for collecting or using personal information for dealing
+                with queries, complaints or claims are:
+                <ul>
+                    <li>
+                        Consent - we have permission from you after we gave you all the
+                        relevant information. All of your data protection rights may apply,
+                        except the right to object. To be clear, you do have the right to
+                        withdraw your consent at any time.
+                    </li>
+                </ul>
+                </p>
+            </div>
+            <div class="content-list" id="where-we-get-info">
+                <h3 style="color: #292929; margin-bottom: 20px">
+                    Where we get personal information from
+                </h3>
+                <ul>
+                    <li>We collect from our website</li>
+                </ul>
+            </div>
+            <div class="content-list" id="how-long-keep-info">
+                <h3 style="color: #292929; margin-bottom: 20px">
+                    How long we keep information
+                </h3>
+                <p>
+                    For more information on how long we store your personal information or the
+                    criteria we use to determine this please contact us using the details provided
+                    above.
+                </p>
+            </div>
+            <div class="content-list">
+                <h3 style="color: #292929; margin-bottom: 20px; margin-top: 20px">
+                    Data Retention
+                </h3>
+                <p>
+                    We retain personal data only for as long as necessary to fulfil the purposes for which it was
+                    collected, or as required by law. In general:
+                </p>
+                <ul>
+                    <li>Customer account details – kept while the account is active, and for up to 2 years
+                    after closure.</li>
+                    <li>
+                        Service usage logs and support records – kept for up to 2 years.
+                    </li>
+                    <li>
+                        Marketing data – kept until you withdraw consent or after 2 years of inactivity.
+                    </li>
+                    <li>
+                        Payment and billing records – retained for 6 years in line with UK tax and
+                        accounting requirements.
+                    </li>
+                    <li>
+                        Recruitment data (unsuccessful applicants) – kept for 6 months after the hiring
+                        decision.
+                    </li>
+                    <li>
+                        Employee records – retained for the duration of employment and up to 6 years
+                        afterwards.
+                    </li>
+                    <li>
+                        Security logs – stored for up to 12 months; CCTV (if applicable) for 30–90 days.
+                    </li>
+                </ul>
+                <p>
+                Once the relevant retention period has expired, we securely delete or anonymise the data.
+                Anonymised data may be retained indefinitely for research and statistical purposes.
+                </p>
+            </div>
+            <div class="about-content" id="how-to-complain">
+                <h3 style="color: #292929; margin-top: 20px; margin-bottom: 20px">
+                    How to complain
+                </h3>
+                <p>
+                    If you have any concerns about our use of your personal data, you can make
+                    a complaint to us using the contact details at the top of this privacy notice.
+                </p>
+                <p>
+                    If you remain unhappy with how we’ve used your data after raising a
+                    complaint with us, you can also complain to the ICO.
+                </p>
+                </br>
+                <p>
+                The ICO’s address:
+                </p>
+                <p>
+                Information Commissioner’s Office <br>
+                Wycliffe House <br>
+                Water Lane <br>
+                Wilmslow <br>
+                Cheshire <br>
+                SK9 5AF
+                </p>
+                </br>
+                <p>Helpline number: 0303 123 1113 <br>
+                </br>
+                Website: https://www.ico.org.uk/make-a-complaint
+                <p>
+                    Last updated <br>
+                    18 September 2025
+                </p>
+            </div>
+          </div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="footer1-section-area">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-6">
+        <div class="footer-logo-area">
+          <img src="assets/img/logo/nexhub-logo.png" alt="">
+          <p>At nexHub, we build, manage, and scale the technology behind nexmin the next-gen delivery platform redefining convenience and speed</p>
+          <ul>
+            <li><a href="#"><img src="assets/img/icons/facebook.svg" alt=""></a></li>
+            <li><a href="https://www.instagram.com/nexmin_limited/"><img src="assets/img/icons/instagram.svg" alt=""></a></li>
+            <li><a href="https://www.linkedin.com/company/108275072/admin/dashboard/"><img src="assets/img/icons/linkedin.svg" alt=""></a></li>
+            <li><a href="https://www.youtube.com/@nexmin_limited/shorts"><img src="assets/img/icons/youtube.svg" alt=""></a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-lg-2 col-md-6">
+        <div class="footer-logo-area1">
+          <h3>About Link</h3>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="service1.html">Careers</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="contact.html">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6">
+        <div class="footer-logo-area2">
+          <h3>Get in touch</h3>
+          <ul>
+            <li><a href="404-4.html"><img src="assets/img/icons/email.svg" alt=""><span>nexhubuk@gmail.com</span></a></li>
+            <li><a href="#"><img src="assets/img/icons/location.svg" alt=""><span>5 St Thomas Road <br class="d-lg-block d-none"> Belvedere, <br class="d-lg-block d-none"> United Kingdom, DA17 6AG</span></a></li>
+            <li><a href="tel:123-456-7890"><img src="assets/img/icons/phone.svg" alt=""><span>(+44)-926-000000</span></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="footer-logo-area3">
+          <h3>Subscribe Our Newsletter</h3>
+          <form action="#">
+            <input type="text" placeholder="Enter Your email">
+            <button class="header-btn1"> Subscribe <span><i class="fa-solid fa-arrow-right"></i></span></button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="space80 d-lg-block d-none"></div>
+    <div class="space40 d-lg-none d-block"></div>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="copyright-area">
+          <div class="pera">
+            <p>ⓒCopyright 2025 nexHub . All rights reserved</p>
+          </div>
+          <ul>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#" class="m-0"> Privacy Policy </a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--===== FOOTER AREA ENDS =======-->
+</div>
+
+<!--===== JS SCRIPT LINK =======-->
+<script src="assets/js/plugins/bootstrap.min.js"></script>
+<script src="assets/js/plugins/fontawesome.js"></script>
+<script src="assets/js/plugins/aos.js"></script>
+<script src="assets/js/plugins/counter.js"></script>
+<script src="assets/js/plugins/gsap.min.js"></script>
+<script src="assets/js/plugins/ScrollTrigger.min.js"></script>
+<script src="assets/js/plugins/Splitetext.js"></script>
+<script src="assets/js/plugins/sidebar.js"></script>
+<script src="assets/js/plugins/magnific-popup.js"></script>
+<script src="assets/js/plugins/mobilemenu.js"></script>
+<script src="assets/js/plugins/owlcarousel.min.js"></script>
+<script src="assets/js/plugins/gsap-animation.js"></script>
+<script src="assets/js/plugins/nice-select.js"></script>
+<script src="assets/js/plugins/waypoints.js"></script>
+<script src="assets/js/plugins/slick-slider.js"></script>
+<script src="assets/js/plugins/circle-progress.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>

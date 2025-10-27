@@ -1,0 +1,22 @@
+.career-box {
+    box-shadow: 2px 5px 10px 0 rgb(0 0 0 / 20%);
+    margin: 5px;
+}
+
+.career-box-content {
+    padding: 30px 30px 30px 30px
+}
+
+.career-content-tag {
+    padding: 5px 10px;
+}
+
+.career-content-tag ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.career-content-tag ul li button {
+    background-color: #4E2FDA !important;
+}
+
